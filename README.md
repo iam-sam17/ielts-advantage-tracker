@@ -24,7 +24,7 @@ Preparing for IELTS directly on YouTube can be frustrating:
 * ❌ Hundreds of videos scattered randomly across years of uploads.
 * ❌ No easy way to track what you’ve already studied and what needs revision.
 
-**The IELTS Advantage Vault solves this completely.** It takes **175+ high-yield masterclasses by Chris Pell (IELTS Advantage)** and organizes them into a **clean, structured, distraction-free curriculum** — right in your browser.
+**The IELTS Advantage Vault solves this completely.** It takes **high-yield masterclasses by Chris Pell (IELTS Advantage)** and organizes them into a **clean, structured, distraction-free curriculum** — right in your browser.
 
 ---
 
