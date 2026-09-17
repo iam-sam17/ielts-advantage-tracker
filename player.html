@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="fmhy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IELTS Advantage - Video Player</title>
+  <meta name="description" content="Watch IELTS Advantage masterclass videos.">
+  <link rel="icon" type="image/png" href="logo_dark.png">
+  <link rel="stylesheet" href="style.css?v=6">
+  <script>
+    // Synchronously apply theme before rendering to avoid any flash of unstyled/white background
+    const initTheme = localStorage.getItem('ielts_vault_theme_v1') || localStorage.getItem('vault-theme') || 'fmhy';
+    document.documentElement.setAttribute('data-theme', initTheme);
+  </script>
+  <style>
+    /* Player Page Specific Styles */
+    html {
+      background-color: var(--bg-main) !important;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background-color: var(--bg-main) !important;
+      color: var(--text-primary);
+      font-family: var(--font-main);
+    }
+
+    .player-page-wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 60px;
+    }
+
+    /* Back Button */
+    .player-back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      margin-bottom: 20px;
+      padding: 8px 14px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      background: var(--bg-card);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .player-back-btn:hover {
+      color: var(--text-primary);
+      border-color: var(--accent-cyan);
+    }
+
+    /* Video Embed Container */
+    .player-video-container {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      background: #000;
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+      margin-bottom: 0;
+    }
+    .player-video-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+
+    /* Video Info Strip below player */
+    .player-info-strip {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-top: none;
+      border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .player-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .player-action-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-primary);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      text-decoration: none;
+    }
+    .player-action-btn:hover {
+      background: rgba(255, 255, 255, 0.10);
+      border-color: var(--accent-cyan);
+    }
+    .player-action-btn.active-watched {
+      border-color: var(--accent-green);
+      color: var(--accent-green);
+    }
+    .player-action-btn.active-starred {
+      border-color: #f59e0b;
+      color: #f59e0b;
+    }
+    .player-yt-btn {
+      background: #dc2626;
+      color: #fff;
+      border: none;
+    }
+    .player-yt-btn:hover {
+      background: #ef4444;
+      border-color: transparent;
+    }
+
+    /* Description Box */
+    .player-description-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+
+    .player-desc-header {
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      user-select: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+    .player-desc-header:hover {
+      background: var(--bg-card-hover);
+    }
+    .player-desc-header.open {
+      border-bottom-color: var(--border-color);
+    }
+
+    .player-desc-title-row {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .player-desc-title-row h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin: 0;
+      line-height: 1.3;
+    }
+    .player-desc-meta {
+      font-size: 12px;
+      color: var(--text-muted);
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    .player-desc-cat-badge {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--accent-cyan);
+      font-family: var(--font-mono);
+    }
+
+    .player-desc-toggle-icon {
+      font-size: 18px;
+      color: var(--text-muted);
+      transition: transform 0.2s ease;
+    }
+    .player-desc-header.open .player-desc-toggle-icon {
+      transform: rotate(180deg);
+    }
+
+    .player-desc-body {
+      display: none;
+      padding: 20px 20px 24px;
+      border-top: none;
+    }
+    .player-desc-body.open {
+      display: block;
+    }
+
+    .desc-text {
+      color: var(--text-secondary);
+      font-size: 14px;
+      line-height: 1.8;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .desc-read-more-btn {
+      margin-top: 12px;
+      background: none;
+      border: none;
+      color: var(--accent-cyan);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 0;
+    }
+    .desc-read-more-btn:hover {
+      text-decoration: underline;
+    }
+
+    /* Not Found State */
+    .player-not-found {
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--text-muted);
+    }
+    .player-not-found h2 {
+      font-size: 22px;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+    }
+    .player-not-found p {
+      margin-bottom: 24px;
+    }
+    .player-not-found a {
+      color: var(--accent-cyan);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .player-page-wrap {
+        padding: 16px 12px 40px;
+      }
+      .player-info-strip {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Back Navigation -->
+  <div class="player-page-wrap">
+    <a class="player-back-btn" id="back-btn" href="javascript:history.back()">
+      ← Back
+    </a>
+
+    <div id="player-content">
+      <!-- Dynamically populated by JS -->
+      <div class="player-not-found">
+        <h2>Loading...</h2>
+        <p>Please wait while we load the video.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="videos_data.js?v=3"></script>
+  <script>
+    // Theme persistence
+    const savedTheme = localStorage.getItem('ielts_vault_theme_v1') || localStorage.getItem('vault-theme') || 'fmhy';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+
+    // Watched / Bookmarked sets from localStorage (synced with app.js)
+    const STORAGE_WATCHED = 'ielts_vault_watched_v1';
+    const STORAGE_BOOKMARKS = 'ielts_vault_bookmarks_v1';
+
+    const watchedVideos = new Set(JSON.parse(localStorage.getItem(STORAGE_WATCHED) || localStorage.getItem('vault-watched') || '[]'));
+    const bookmarkedVideos = new Set(JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS) || localStorage.getItem('vault-bookmarked') || '[]'));
+
+    function saveWatched() {
+      const arr = Array.from(watchedVideos);
+      localStorage.setItem(STORAGE_WATCHED, JSON.stringify(arr));
+      localStorage.setItem('vault-watched', JSON.stringify(arr));
+    }
+    function saveBookmarked() {
+      const arr = Array.from(bookmarkedVideos);
+      localStorage.setItem(STORAGE_BOOKMARKS, JSON.stringify(arr));
+      localStorage.setItem('vault-bookmarked', JSON.stringify(arr));
+    }
+
+    // Category label map
+    const catLabels = {};
+    if (typeof VAULT_DATA !== 'undefined' && VAULT_DATA.categories) {
+      VAULT_DATA.categories.forEach(c => {
+        catLabels[c.key] = c.label;
+      });
+    }
+
+    function renderPlayer(video) {
+      const isWatched = watchedVideos.has(video.id);
+      const isBookmarked = bookmarkedVideos.has(video.id);
+      const catLabel = catLabels[video.category] || 'General';
+
+      const embedSrc = `https://www.youtube.com/embed/${video.id}?autoplay=1&rel=0&playsinline=1`;
+      const ytLink = `https://www.youtube.com/watch?v=${video.id}`;
+
+      document.title = `${video.title} — IELTS Advantage Vault`;
+
+      const content = document.getElementById('player-content');
+      content.innerHTML = `
+        <!-- Video Player -->
+        <div class="player-video-container" id="video-container">
+          <iframe 
+            id="main-player-iframe"
+            src="${embedSrc}" 
+            title="${video.title.replace(/"/g, '&quot;')}"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <!-- Action Bar -->
+        <div class="player-info-strip">
+          <div class="player-actions" id="player-actions">
+            <button class="player-action-btn ${isWatched ? 'active-watched' : ''}" id="btn-watched" onclick="toggleWatched('${video.id}')">
+              <span id="icon-watched">${isWatched ? '✅' : '⚪'}</span>
+              <span id="text-watched">${isWatched ? 'Watched' : 'Mark as Watched'}</span>
+            </button>
+            <button class="player-action-btn ${isBookmarked ? 'active-starred' : ''}" id="btn-bookmark" onclick="toggleBookmark('${video.id}')">
+              <span id="icon-bookmark">${isBookmarked ? '⭐' : '☆'}</span>
+              <span id="text-bookmark">${isBookmarked ? 'Bookmarked' : 'Bookmark'}</span>
+            </button>
+          </div>
+          <a href="${ytLink}" target="_blank" rel="noopener noreferrer" class="player-action-btn player-yt-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            Watch on YouTube ↗
+          </a>
+        </div>
+
+        <!-- Description Box -->
+        <div class="player-description-box">
+          <div class="player-desc-header open" id="desc-header" onclick="toggleDesc()">
+            <div class="player-desc-title-row">
+              <h2>${video.title}</h2>
+              <div class="player-desc-meta">
+                <span class="player-desc-cat-badge">${catLabel}</span>
+                ${video.duration ? `<span>⏱ ${video.duration}</span>` : ''}
+              </div>
+            </div>
+            <span class="player-desc-toggle-icon">▾</span>
+          </div>
+          <div class="player-desc-body open" id="desc-body">
+            <div class="desc-text" id="desc-text-short">
+              ${getDescriptionHTML(video)}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function getDescriptionHTML(video) {
+      const catLabel = catLabels[video.category] || 'General';
+      const lines = [
+        `📚 <strong>Category:</strong> ${catLabel}`,
+        video.duration ? `⏱ <strong>Duration:</strong> ${video.duration}` : null,
+        '',
+        `This masterclass is part of the IELTS Advantage Vault — a curated collection of high-quality IELTS preparation videos designed to help you achieve your target band score.`,
+        '',
+        `🔗 Watch the full video on YouTube or use the controls above to track your progress.`
+      ].filter(l => l !== null);
+      return lines.join('<br>');
+    }
+
+    function toggleDesc() {
+      const header = document.getElementById('desc-header');
+      const body = document.getElementById('desc-body');
+      if (!header || !body) return;
+      header.classList.toggle('open');
+      body.classList.toggle('open');
+    }
+
+    function toggleWatched(vidId) {
+      if (watchedVideos.has(vidId)) {
+        watchedVideos.delete(vidId);
+      } else {
+        watchedVideos.add(vidId);
+      }
+      saveWatched();
+      const isW = watchedVideos.has(vidId);
+      const btn = document.getElementById('btn-watched');
+      const icon = document.getElementById('icon-watched');
+      const text = document.getElementById('text-watched');
+      if (btn) btn.className = `player-action-btn ${isW ? 'active-watched' : ''}`;
+      if (icon) icon.textContent = isW ? '✅' : '⚪';
+      if (text) text.textContent = isW ? 'Watched' : 'Mark as Watched';
+    }
+
+    function toggleBookmark(vidId) {
+      if (bookmarkedVideos.has(vidId)) {
+        bookmarkedVideos.delete(vidId);
+      } else {
+        bookmarkedVideos.add(vidId);
+      }
+      saveBookmarked();
+      const isB = bookmarkedVideos.has(vidId);
+      const btn = document.getElementById('btn-bookmark');
+      const icon = document.getElementById('icon-bookmark');
+      const text = document.getElementById('text-bookmark');
+      if (btn) btn.className = `player-action-btn ${isB ? 'active-starred' : ''}`;
+      if (icon) icon.textContent = isB ? '⭐' : '☆';
+      if (text) text.textContent = isB ? 'Bookmarked' : 'Bookmark';
+    }
+
+    // Main: read video ID from URL params
+    function init() {
+      const params = new URLSearchParams(window.location.search);
+      const vidId = params.get('v') || params.get('id');
+
+      const content = document.getElementById('player-content');
+
+      if (!vidId || typeof VAULT_DATA === 'undefined') {
+        content.innerHTML = `
+          <div class="player-not-found">
+            <h2>Video Not Found</h2>
+            <p>No video ID was specified. Please go back and select a video.</p>
+            <a href="index.html">← Return to Vault</a>
+          </div>
+        `;
+        return;
+      }
+
+      const video = VAULT_DATA.videos.find(v => v.id === vidId);
+      if (!video) {
+        content.innerHTML = `
+          <div class="player-not-found">
+            <h2>Video Not Found</h2>
+            <p>The video you requested does not exist in the vault.</p>
+            <a href="index.html">← Return to Vault</a>
+          </div>
+        `;
+        return;
+      }
+
+      renderPlayer(video);
+    }
+
+    init();
+  </script>
+</body>
+</html>
