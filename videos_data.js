@@ -176,6 +176,48 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "UpaYHuz1Aoc",
+      "title": "What Band 7.5 IELTS Speaking Sounds Like",
+      "category": "speaking",
+      "hasPdf": false,
+      "duration": "20:00"
+    },
+    {
+      "id": "OGfs7HppCDE",
+      "title": "He Needed 6.5 for His Australian Visa. Arnob Scored Band 8.",
+      "category": "vip_reviews",
+      "hasPdf": false,
+      "duration": "20:00"
+    },
+    {
+      "id": "NsO3vfxPrHI",
+      "title": "How Hamza Scored Band 8 to Win a Masters Scholarship",
+      "category": "vip_reviews",
+      "hasPdf": false,
+      "duration": "20:00"
+    },
+    {
+      "id": "jUUhYb4nOo0",
+      "title": "How Olanrewaju Scored Band 8 on His First IELTS Attempt for UK Medical Licensing\"",
+      "category": "vip_reviews",
+      "hasPdf": false,
+      "duration": "20:00"
+    },
+    {
+      "id": "ube245uZIAU",
+      "title": "She Was Stuck With No Direction. Then Phoenix Hit Her Target Score of 7.5.",
+      "category": "general_tips",
+      "hasPdf": false,
+      "duration": "20:00"
+    },
+    {
+      "id": "gOZstN8hMmA",
+      "title": "He Took IELTS 4 Times, Stuck at 6.5. Then Said Scored 8.5 Overall.",
+      "category": "general_tips",
+      "hasPdf": false,
+      "duration": "20:00"
+    },
+    {
       "id": "L5J3UJ_Z0KE",
       "title": "From 6.5 to a Perfect 9.0 Using One Simple Strategy",
       "category": "general_tips",
