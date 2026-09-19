@@ -1,8 +1,10 @@
 name: Auto-Sync IELTS Advantage Vault
 
 on:
+  # Runs twice daily at 00:00 and 12:00 UTC
   schedule:
     - cron: '0 0,12 * * *'
+  # Allows manual triggering from the GitHub Actions tab anytime
   workflow_dispatch:
 
 permissions:
@@ -11,6 +13,7 @@ permissions:
 jobs:
   sync-vault:
     runs-on: ubuntu-latest
+
     steps:
       - name: 📥 Checkout Repository
         uses: actions/checkout@v4
@@ -19,12 +22,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
-
-      - name: 📦 Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install yt-dlp
 
       - name: 🔄 Run YouTube Auto-Sync Engine
         run: |
@@ -35,11 +32,12 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
+          # Check if videos_data.js was modified
           if [ -n "$(git status --porcelain videos_data.js)" ]; then
             git add videos_data.js
             git commit -m "🤖 Auto-sync: Update IELTS Vault masterclasses [skip ci]"
             git push
             echo "✅ Successfully synced and pushed new videos to Vault!"
           else
-            echo "✨ Vault is already up to date."
+            echo "✨ Vault is already up to date. No changes to commit."
           fi
