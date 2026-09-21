@@ -176,6 +176,13 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "svC2wovS8Vs",
+      "title": "Her Mock Test Writing Score Was 5. Two Weeks Later Mehriban Got 7.5 Overall.",
+      "category": "general_tips",
+      "hasPdf": false,
+      "duration": "20:00"
+    },
+    {
       "id": "OGfs7HppCDE",
       "title": "He Needed 6.5 for His Australian Visa. Arnob Scored Band 8.",
       "category": "vip_reviews",
