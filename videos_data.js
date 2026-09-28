@@ -176,6 +176,13 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "OM2ERwjtjVQ",
+      "title": "How Manasa Fixed Her Writing and Got Band 8 Overall for Her Masters.",
+      "category": "general_tips",
+      "hasPdf": false,
+      "duration": "20:00"
+    },
+    {
       "id": "wR6P3ObHmkA",
       "title": "IELTS Advice From 209 Band 9 Students (And Giveaway Winners)",
       "category": "general_tips",
