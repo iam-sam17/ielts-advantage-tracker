@@ -176,6 +176,13 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "CJ7bt-FfQ7c",
+      "title": "How Tais Finally Broke 6.5 in Writing and Got Her Permanent Visa",
+      "category": "vip_reviews",
+      "hasPdf": false,
+      "duration": "20:00"
+    },
+    {
       "id": "OM2ERwjtjVQ",
       "title": "How Manasa Fixed Her Writing and Got Band 8 Overall for Her Masters.",
       "category": "general_tips",
