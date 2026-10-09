@@ -176,6 +176,13 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "luafA46SVvE",
+      "title": "Get Band 9 After Using This IELTS Reading Strategy",
+      "category": "reading",
+      "hasPdf": false,
+      "duration": "20:00"
+    },
+    {
       "id": "CJ7bt-FfQ7c",
       "title": "How Tais Finally Broke 6.5 in Writing and Got Her Permanent Visa",
       "category": "vip_reviews",
