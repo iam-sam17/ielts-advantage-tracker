@@ -176,6 +176,13 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "ka3oEnb1P-M",
+      "title": "Get $147 of IELTS Feedback for $10 Today",
+      "category": "general_tips",
+      "hasPdf": false,
+      "duration": "20:00"
+    },
+    {
       "id": "ooUNeHoRRgA",
       "title": "She Failed IELTS 4 Times. Then Renuka Scored 8.5 Overall.",
       "category": "general_tips",
