@@ -176,6 +176,13 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "WC-8E9lqHhU",
+      "title": "20 Essential Words For IELTS Band 9 Vocabulary",
+      "category": "vocabulary",
+      "hasPdf": false,
+      "duration": "20:00"
+    },
+    {
       "id": "ka3oEnb1P-M",
       "title": "Get $147 of IELTS Feedback for $10 Today",
       "category": "general_tips",
