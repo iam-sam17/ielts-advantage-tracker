@@ -10,13 +10,16 @@ document.addEventListener('DOMContentLoaded', () => {
   // State
   let currentCategory = pageCategory;
   let currentFilter = 'all'; // 'all', 'unwatched', 'watched', 'pdf', 'starred'
-  let currentSort = 'default';
+  let currentSort = 'study_order';
   let searchQuery = '';
 
-  // Check URL query parameters (e.g. ?filter=starred or ?q=search)
+  // Check URL query parameters (e.g. ?filter=starred or ?q=search or ?sort=study_order)
   const urlParams = new URLSearchParams(window.location.search);
   if (urlParams.get('filter')) {
     currentFilter = urlParams.get('filter');
+  }
+  if (urlParams.get('sort')) {
+    currentSort = urlParams.get('sort');
   }
   if (urlParams.get('q')) {
     searchQuery = urlParams.get('q');
@@ -145,12 +148,35 @@ document.addEventListener('DOMContentLoaded', () => {
       return true;
     });
 
+    // Helper to parse duration string (HH:MM:SS or MM:SS) to total seconds
+    function parseDurationSeconds(dur) {
+      if (!dur || dur === 'NA') return 0;
+      const parts = String(dur).trim().split(':').map(Number);
+      if (parts.some(isNaN)) return 0;
+      if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+      if (parts.length === 2) return parts[0] * 60 + parts[1];
+      if (parts.length === 1) return parts[0];
+      return 0;
+    }
+
     // Sort
-    if (currentSort === 'title_asc') {
+    const isGlobal = currentCategory === 'all' || currentCategory === 'home';
+    if (currentSort === 'study_order') {
+      list.sort((a, b) => {
+        const orderA = isGlobal ? (a.studyOrder || 9999) : (a.categoryOrder || 9999);
+        const orderB = isGlobal ? (b.studyOrder || 9999) : (b.categoryOrder || 9999);
+        return orderA - orderB;
+      });
+    } else if (currentSort === 'duration_desc') {
+      list.sort((a, b) => parseDurationSeconds(b.duration) - parseDurationSeconds(a.duration));
+    } else if (currentSort === 'duration_asc') {
+      list.sort((a, b) => parseDurationSeconds(a.duration) - parseDurationSeconds(b.duration));
+    } else if (currentSort === 'title_asc') {
       list.sort((a, b) => a.title.localeCompare(b.title));
     } else if (currentSort === 'title_desc') {
       list.sort((a, b) => b.title.localeCompare(a.title));
     }
+    // 'default': maintains native catalog order (newest uploads first)
 
     return list;
   }
@@ -168,6 +194,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (emptyState) emptyState.style.display = 'none';
+
+    const isGlobal = currentCategory === 'all' || currentCategory === 'home';
 
     videoGrid.innerHTML = videos.map(v => {
       const isWatched = watchedVideos.has(v.id);
@@ -194,6 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
 
           <div class="card-body">
+            ${v.curriculumNote ? `<div class="card-curriculum-note" title="${v.curriculumNote}"><span class="note-icon">📌</span> ${v.curriculumNote}</div>` : ''}
             <h4 class="card-title" onclick="window.vaultApp.openPlayer('${v.id}')" title="${v.title}">
               ${v.title}
             </h4>
@@ -407,6 +436,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Sort dropdown
   if (sortSelect) {
+    sortSelect.value = currentSort;
     sortSelect.addEventListener('change', (e) => {
       currentSort = e.target.value;
       renderVideos();
@@ -420,8 +450,8 @@ document.addEventListener('DOMContentLoaded', () => {
       searchQuery = '';
       if (globalSearch) globalSearch.value = '';
       if (clearSearch) clearSearch.style.display = 'none';
-      if (sortSelect) sortSelect.value = 'default';
-      currentSort = 'default';
+      currentSort = 'study_order';
+      if (sortSelect) sortSelect.value = 'study_order';
 
       filterPills.forEach(p => p.classList.remove('active'));
       document.querySelector('.filter-pill[data-filter="all"]')?.classList.add('active');

@@ -176,1341 +176,2105 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "VjZU_RxB3NE",
+      "title": "How Jewel Scored Band 8.5 on His Very First IELTS Attempt",
+      "category": "vip_reviews",
+      "hasPdf": false,
+      "duration": "0:58",
+      "categoryOrder": 1,
+      "studyPhase": "First Attempt Jump",
+      "curriculumNote": "Band 8.5 on Very First IELTS Attempt (Jewel)",
+      "studyOrder": 164
+    },
+    {
       "id": "WC-8E9lqHhU",
-      "title": "20 Essential Words For IELTS Band 9 Vocabulary",
+      "title": "The Real Band 9 Vocabulary Method for 2027",
       "category": "vocabulary",
       "hasPdf": false,
-      "duration": "20:00"
+      "duration": "18:45",
+      "categoryOrder": 2,
+      "studyPhase": "Core Method",
+      "curriculumNote": "The Real Band 9 Vocabulary Method for 2027",
+      "studyOrder": 51
     },
     {
       "id": "ka3oEnb1P-M",
       "title": "Get $147 of IELTS Feedback for $10 Today",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "20:00"
+      "duration": "0:56",
+      "categoryOrder": 27,
+      "studyPhase": "Diagnostic",
+      "curriculumNote": "IELTS Diagnostic Feedback & Audit",
+      "studyOrder": 163
     },
     {
       "id": "ooUNeHoRRgA",
       "title": "She Failed IELTS 4 Times. Then Renuka Scored 8.5 Overall.",
-      "category": "general_tips",
+      "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "20:00"
+      "duration": "0:58",
+      "categoryOrder": 8,
+      "studyPhase": "Breakthrough",
+      "curriculumNote": "Failed 4 Times, Then Renuka Scored 8.5",
+      "studyOrder": 171
     },
     {
       "id": "luafA46SVvE",
       "title": "Get Band 9 After Using This IELTS Reading Strategy",
       "category": "reading",
       "hasPdf": false,
-      "duration": "20:00"
+      "duration": "24:32",
+      "categoryOrder": 6,
+      "studyPhase": "Core Method",
+      "curriculumNote": "Get Band 9 Using This Reading Strategy (2026)",
+      "studyOrder": 121
     },
     {
       "id": "CJ7bt-FfQ7c",
       "title": "How Tais Finally Broke 6.5 in Writing and Got Her Permanent Visa",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "20:00"
+      "duration": "0:52",
+      "categoryOrder": 17,
+      "studyPhase": "Writing Breakthrough",
+      "curriculumNote": "Broke 6.5 in Writing -> Permanent Visa (Tais)",
+      "studyOrder": 180
     },
     {
       "id": "OM2ERwjtjVQ",
       "title": "How Manasa Fixed Her Writing and Got Band 8 Overall for Her Masters.",
-      "category": "general_tips",
+      "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "20:00"
-    },
-    {
-      "id": "wR6P3ObHmkA",
-      "title": "IELTS Advice From 209 Band 9 Students (And Giveaway Winners)",
-      "category": "general_tips",
-      "hasPdf": false,
-      "duration": "0:00"
+      "duration": "0:54",
+      "categoryOrder": 16,
+      "studyPhase": "Writing Jump",
+      "curriculumNote": "Fixed Writing: Got Band 8 Overall (Manasa)",
+      "studyOrder": 179
     },
     {
       "id": "svC2wovS8Vs",
       "title": "Her Mock Test Writing Score Was 5. Two Weeks Later Mehriban Got 7.5 Overall.",
-      "category": "general_tips",
+      "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "20:00"
+      "duration": "0:59",
+      "categoryOrder": 15,
+      "studyPhase": "Writing Jump",
+      "curriculumNote": "Mock Writing 5 -> 7.5 in 2 Weeks (Mehriban)",
+      "studyOrder": 178
     },
     {
       "id": "OGfs7HppCDE",
       "title": "He Needed 6.5 for His Australian Visa. Arnob Scored Band 8.",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "0:43"
+      "duration": "0:43",
+      "categoryOrder": 22,
+      "studyPhase": "Visa Goal",
+      "curriculumNote": "Needed 6.5 for Australian Visa -> Scored 8",
+      "studyOrder": 185
     },
     {
       "id": "NsO3vfxPrHI",
       "title": "How Hamza Scored Band 8 to Win a Masters Scholarship",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "0:42"
+      "duration": "0:42",
+      "categoryOrder": 23,
+      "studyPhase": "Scholarship",
+      "curriculumNote": "Scored Band 8 to Win Masters Scholarship",
+      "studyOrder": 186
     },
     {
       "id": "jUUhYb4nOo0",
       "title": "How Olanrewaju Scored Band 8 on His First IELTS Attempt for UK Medical Licensing\"",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "0:57"
+      "duration": "0:57",
+      "categoryOrder": 24,
+      "studyPhase": "Medical Licensing",
+      "curriculumNote": "Band 8 First Attempt for UK Medical License",
+      "studyOrder": 187
     },
     {
       "id": "ube245uZIAU",
       "title": "She Was Stuck With No Direction. Then Phoenix Hit Her Target Score of 7.5.",
-      "category": "general_tips",
+      "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "0:49"
+      "duration": "0:49",
+      "categoryOrder": 14,
+      "studyPhase": "Clarity & Direction",
+      "curriculumNote": "Phoenix: Hit Target Score 7.5",
+      "studyOrder": 177
     },
     {
       "id": "gOZstN8hMmA",
       "title": "He Took IELTS 4 Times, Stuck at 6.5. Then Said Scored 8.5 Overall.",
-      "category": "general_tips",
+      "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "0:56"
+      "duration": "0:56",
+      "categoryOrder": 9,
+      "studyPhase": "Breakthrough",
+      "curriculumNote": "Stuck at 6.5 Four Times -> Scored 8.5 (Said)",
+      "studyOrder": 172
     },
     {
       "id": "UpaYHuz1Aoc",
       "title": "What Band 7.5 IELTS Speaking Sounds Like",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "30:51"
+      "duration": "30:51",
+      "categoryOrder": 36,
+      "studyPhase": "Mock Test: Band 7.5",
+      "curriculumNote": "What Band 7.5 IELTS Speaking Sounds Like",
+      "studyOrder": 91
     },
     {
       "id": "L5J3UJ_Z0KE",
       "title": "From 6.5 to a Perfect 9.0 Using One Simple Strategy",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "14:03"
+      "duration": "14:03",
+      "categoryOrder": 13,
+      "studyPhase": "Score Breakthrough",
+      "curriculumNote": "From 6.5 to Perfect 9.0 Strategy",
+      "studyOrder": 149
     },
     {
       "id": "Ek9Lk8_bzeY",
       "title": "IELTS Speaking Test- Band 6.5",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "26:03"
+      "duration": "26:03",
+      "categoryOrder": 32,
+      "studyPhase": "Mock Test: Band 6.5",
+      "curriculumNote": "Full Mock Test - Band 6.5 (Benchmark A)",
+      "studyOrder": 87
     },
     {
       "id": "Rk8fjwbRGvQ",
       "title": "How To Write A Band 9 Task 2 Conclusion",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "11:54"
+      "duration": "11:54",
+      "categoryOrder": 12,
+      "studyPhase": "Deep Dive",
+      "curriculumNote": "How to Write a Band 9 Conclusion",
+      "studyOrder": 19
     },
     {
       "id": "rXVR-nE2jvw",
       "title": "How To Write A Band 9 Task 2 Main Body Paragraph",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "36:29"
+      "duration": "36:29",
+      "categoryOrder": 11,
+      "studyPhase": "Deep Dive",
+      "curriculumNote": "How to Write a Band 9 Body Paragraph",
+      "studyOrder": 18
     },
     {
       "id": "Uyf17MMucCg",
       "title": "How To Write a Band 9 Task 2 Introduction",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "29:41"
+      "duration": "29:41",
+      "categoryOrder": 10,
+      "studyPhase": "Deep Dive",
+      "curriculumNote": "How to Write a Band 9 Introduction",
+      "studyOrder": 17
     },
     {
       "id": "s1alDRNuVLs",
       "title": "From 6.5 to 8.0: IELTS Writing Makeover",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "38:47"
+      "duration": "38:47",
+      "categoryOrder": 20,
+      "studyPhase": "Makeover & Traps",
+      "curriculumNote": "Live Makeover: From 6.5 to 8.0",
+      "studyOrder": 27
     },
     {
       "id": "P1GcJWXFaU0",
       "title": "From Band 5.5 to 7.5 Using One Simple Strategy",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "15:54"
+      "duration": "15:54",
+      "categoryOrder": 11,
+      "studyPhase": "Score Breakthrough",
+      "curriculumNote": "From Band 5.5 to 7.5: Core Method",
+      "studyOrder": 147
     },
     {
       "id": "82y0SXbl060",
       "title": "Why She Was Stuck at 6.5 (Even With Great English)",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "28:48"
+      "duration": "28:48",
+      "categoryOrder": 15,
+      "studyPhase": "Troubleshooting",
+      "curriculumNote": "Why Great English Gets Stuck at 6.5",
+      "studyOrder": 151
     },
     {
       "id": "x-_vHUzm3b4",
       "title": "IELTS Writing Task 2 Essay Built From Scratch",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "45:24"
+      "duration": "45:24",
+      "categoryOrder": 14,
+      "studyPhase": "Live Demo",
+      "curriculumNote": "Writing a Full Essay From Scratch",
+      "studyOrder": 21
     },
     {
       "id": "CA7b8z-gKQA",
       "title": "IELTS Speaking Test – Perfect Band 9",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "21:17"
+      "duration": "21:17",
+      "categoryOrder": 48,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Perfect Band 9 Speaking Test",
+      "studyOrder": 103
     },
     {
       "id": "aWgl7Wlw614",
       "title": "IELTS Writing Task 1 General Training: Complete Guide",
       "category": "writing_task1",
       "hasPdf": false,
-      "duration": "1:00:37"
+      "duration": "1:00:37",
+      "categoryOrder": 10,
+      "studyPhase": "General Training",
+      "curriculumNote": "Task 1 General Training Complete Guide",
+      "studyOrder": 45
     },
     {
       "id": "IZSHNDObyWs",
       "title": "Band 9 In IELTS Speaking Is Simpler Than You Think",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "17:43"
+      "duration": "17:43",
+      "categoryOrder": 4,
+      "studyPhase": "Mindset",
+      "curriculumNote": "Band 9 in Speaking is Simpler Than You Think",
+      "studyOrder": 59
     },
     {
       "id": "q_5jmvbwf-g",
       "title": "How to Write a Perfect IELTS Writing Task 2 Essay",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "13:30"
+      "duration": "13:30",
+      "categoryOrder": 13,
+      "studyPhase": "Deep Dive",
+      "curriculumNote": "Assembling the Complete Band 9 Essay",
+      "studyOrder": 20
     },
     {
       "id": "bqznnq9gOsU",
       "title": "Master IELTS Speaking in One Video",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "15:54"
+      "duration": "15:54",
+      "categoryOrder": 1,
+      "studyPhase": "Foundation",
+      "curriculumNote": "Master IELTS Speaking in One Video",
+      "studyOrder": 56
     },
     {
       "id": "WGPLxp821HM",
       "title": "IELTS Speaking Test Band 8.5 - Almost Perfect",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "21:05"
+      "duration": "21:05",
+      "categoryOrder": 40,
+      "studyPhase": "Mock Test: Band 8.5",
+      "curriculumNote": "Band 8.5 Test: Almost Flawless Execution",
+      "studyOrder": 95
     },
     {
       "id": "xZ5JkW13Dtk",
       "title": "From Band 6.5 to 7.0 in IELTS Writing (Problems & Solutions Task 2 Essay)",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "39:35"
+      "duration": "39:35",
+      "categoryOrder": 16,
+      "studyPhase": "Question Types",
+      "curriculumNote": "Problem & Solution Essay Masterclass",
+      "studyOrder": 23
     },
     {
       "id": "N0RxRl9allI",
       "title": "Get Band 9 After Using These Reading Strategies",
       "category": "reading",
       "hasPdf": false,
-      "duration": "15:09"
+      "duration": "15:09",
+      "categoryOrder": 10,
+      "studyPhase": "Deep Dive",
+      "curriculumNote": "Proven Question-Solving Strategies",
+      "studyOrder": 125
     },
     {
       "id": "t29cQMUrhdM",
       "title": "His Speaking Score Jumped From 6.5 to 7.5 Using This Strategy",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "29:06"
+      "duration": "29:06",
+      "categoryOrder": 28,
+      "studyPhase": "Score Jump",
+      "curriculumNote": "Speaking Score Jumped 6.5 to 7.5",
+      "studyOrder": 83
     },
     {
       "id": "JnsWQ7BxF_E",
       "title": "IELTS Tips and Strategies Every Student Should Learn",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "2:28:29"
+      "duration": "2:28:29",
+      "categoryOrder": 4,
+      "studyPhase": "Foundation",
+      "curriculumNote": "Multi-Skill Essential Workshop",
+      "studyOrder": 4
     },
     {
       "id": "-AcwpQsrUUs",
       "title": "IELTS Speaking Test – Perfect Band 9",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "24:52"
+      "duration": "24:52",
+      "categoryOrder": 49,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Flawless Band 9 Speaking Interview",
+      "studyOrder": 104
     },
     {
       "id": "h2uF03zKaCA",
       "title": "Prepare for IELTS Writing in 1 Hour: Step-by-Step Course",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "1:24:50"
+      "duration": "1:24:50",
+      "categoryOrder": 22,
+      "studyPhase": "Writing Masterclass",
+      "curriculumNote": "Prepare for Writing in 1 Hour",
+      "studyOrder": 158
     },
     {
       "id": "MofoAmp17oo",
       "title": "The Only 2 IELTS Books You Need To Get Band 9",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "10:24"
+      "duration": "10:24",
+      "categoryOrder": 6,
+      "studyPhase": "Foundation",
+      "curriculumNote": "The Only 2 Books You Need",
+      "studyOrder": 6
     },
     {
       "id": "S_hEoRx1cb0",
       "title": "She Raised Her IELTS Speaking 1.5 Bands in 1 Week",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "26:06"
+      "duration": "26:06",
+      "categoryOrder": 29,
+      "studyPhase": "Score Jump",
+      "curriculumNote": "Raised Speaking 1.5 Bands in 1 Week",
+      "studyOrder": 84
     },
     {
       "id": "lDORjtZ5Tfk",
       "title": "How I’d Teach My Wife IELTS (If I Had To Start Over)",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "15:16"
+      "duration": "15:16",
+      "categoryOrder": 1,
+      "studyPhase": "Foundation",
+      "curriculumNote": "Start Here: The Ground-Up Roadmap",
+      "studyOrder": 1
     },
     {
       "id": "tJxFwm2B1Io",
       "title": "He Stopped Thinking and Jumped to IELTS Band 7",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "10:47"
+      "duration": "10:47",
+      "categoryOrder": 18,
+      "studyPhase": "Troubleshooting",
+      "curriculumNote": "Stop Overthinking: Jump to Band 7",
+      "studyOrder": 154
     },
     {
       "id": "7uyRAfXbHFs",
       "title": "IELTS Speaking Test with Feedback – Band 8.5",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "27:39"
+      "duration": "27:39",
+      "categoryOrder": 41,
+      "studyPhase": "Mock Test: Band 8.5",
+      "curriculumNote": "Band 8.5 Test with Examiner Feedback",
+      "studyOrder": 96
     },
     {
       "id": "T3ElsRa5QIA",
       "title": "How To Get Band 9 In IELTS Writing Task 1 General Training",
       "category": "writing_task1",
       "hasPdf": false,
-      "duration": "22:35"
+      "duration": "22:35",
+      "categoryOrder": 14,
+      "studyPhase": "General Training",
+      "curriculumNote": "How to Get Band 9 in GT Task 1",
+      "studyOrder": 49
     },
     {
       "id": "ZwTX-O_WvnM",
       "title": "IELTS Task 1 General Training Writing: Ultimate Guide 2026",
       "category": "writing_task1",
       "hasPdf": false,
-      "duration": "17:46"
+      "duration": "17:46",
+      "categoryOrder": 13,
+      "studyPhase": "General Training",
+      "curriculumNote": "GT Task 1 Writing 2026 Guide",
+      "studyOrder": 48
     },
     {
       "id": "JKYHb9MjxWs",
       "title": "Band 5.0 to 8.0 in IELTS Reading Using One Simple Strategy",
       "category": "reading",
       "hasPdf": false,
-      "duration": "10:30"
+      "duration": "10:30",
+      "categoryOrder": 15,
+      "studyPhase": "Score Jump",
+      "curriculumNote": "From Band 5.0 to 8.0 in Reading",
+      "studyOrder": 130
     },
     {
       "id": "p-r65jaSz4o",
       "title": "IELTS Writing Tips You MUST Know Before Your Test",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "29:22"
+      "duration": "29:22",
+      "categoryOrder": 27,
+      "studyPhase": "Advanced Speed",
+      "curriculumNote": "Must-Know Writing Tips Before Test Day",
+      "studyOrder": 34
     },
     {
       "id": "pVjyI4fB6LY",
       "title": "From Band 6.5 to 7.0 Using One Simple Method",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "8:46"
+      "duration": "8:46",
+      "categoryOrder": 21,
+      "studyPhase": "Troubleshooting",
+      "curriculumNote": "From Band 6.5 to 7.0 Simple Method",
+      "studyOrder": 157
     },
     {
       "id": "EGBPLDP_qp8",
       "title": "Prepare for IELTS in 1 Hour: Step-by-Step Crash Course",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "1:08:54"
+      "duration": "1:08:54",
+      "categoryOrder": 2,
+      "studyPhase": "Foundation",
+      "curriculumNote": "1-Hour IELTS Crash Course",
+      "studyOrder": 2
     },
     {
       "id": "NZkkd7V2Gek",
       "title": "IELTS Writing Is HARD Until You Learn This One Sentence",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "8:17"
+      "duration": "8:17",
+      "categoryOrder": 24,
+      "studyPhase": "Writing Masterclass",
+      "curriculumNote": "The One Sentence That Makes Writing Easy",
+      "studyOrder": 160
     },
     {
       "id": "ZITN5qjA2Kk",
       "title": "This Student Made Band 9 Speaking Look Easy",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "12:52"
+      "duration": "12:52",
+      "categoryOrder": 50,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Student Made Band 9 Look Effortless",
+      "studyOrder": 105
     },
     {
       "id": "oz1ZZL5u36w",
       "title": "IELTS 2026 Changes You MUST Know Before Your Test",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "12:32"
+      "duration": "12:32",
+      "categoryOrder": 5,
+      "studyPhase": "Foundation",
+      "curriculumNote": "IELTS 2026 Changes & Format Updates",
+      "studyOrder": 5
     },
     {
       "id": "GKr5n9aa2Zw",
       "title": "IELTS Speaking Test Band 8.5- Almost Perfect",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "18:25"
+      "duration": "18:25",
+      "categoryOrder": 42,
+      "studyPhase": "Mock Test: Band 8.5",
+      "curriculumNote": "Band 8.5 Real Speaking Exam Simulation",
+      "studyOrder": 97
     },
     {
       "id": "PhOqxNyHhvw",
       "title": "How Anyone Can Jump from IELTS Band 6 to 7.5 in 1 Month",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "16:06"
+      "duration": "16:06",
+      "categoryOrder": 8,
+      "studyPhase": "Score Breakthrough",
+      "curriculumNote": "Jump from Band 6 to 7.5 in 1 Month",
+      "studyOrder": 144
     },
     {
       "id": "YWqU_QwCYCQ",
       "title": "IELTS Speaking Test- Perfect Band 9",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "13:15"
+      "duration": "13:15",
+      "categoryOrder": 51,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Perfect Band 9 Model Answers",
+      "studyOrder": 106
     },
     {
       "id": "4hI-ST678rI",
       "title": "The ONLY IELTS Writing Task 2 Strategy You Need",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "22:24"
+      "duration": "22:24",
+      "categoryOrder": 8,
+      "studyPhase": "Core Method",
+      "curriculumNote": "High-Yield Writing Task 2 Strategy",
+      "studyOrder": 15
     },
     {
       "id": "KQO5WrwpW7M",
       "title": "IELTS Vocabulary: What Band 9 Students Do Differently in 2026",
       "category": "vocabulary",
       "hasPdf": false,
-      "duration": "15:43"
+      "duration": "15:43",
+      "categoryOrder": 3,
+      "studyPhase": "Core Method",
+      "curriculumNote": "What Band 9 Students Do Differently in 2026",
+      "studyOrder": 52
     },
     {
       "id": "NECR879vg-Y",
       "title": "How to Get Band 9 in IELTS Writing Task 2",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "28:58"
+      "duration": "28:58",
+      "categoryOrder": 24,
+      "studyPhase": "Advanced Speed",
+      "curriculumNote": "How to Secure Band 9 in Task 2",
+      "studyOrder": 31
     },
     {
       "id": "M_NP2v7rV8Y",
       "title": "IELTS Reading Band 9 in 4 Steps (Simpler Than You Think)",
       "category": "reading",
       "hasPdf": false,
-      "duration": "15:26"
+      "duration": "15:26",
+      "categoryOrder": 5,
+      "studyPhase": "Core Method",
+      "curriculumNote": "Reading Band 9 in 4 Simple Steps",
+      "studyOrder": 120
     },
     {
       "id": "tPrdQAefy4U",
       "title": "Common Synonyms That Will Destroy Your IELTS Score",
       "category": "vocabulary",
       "hasPdf": false,
-      "duration": "22:47"
+      "duration": "22:47",
+      "categoryOrder": 4,
+      "studyPhase": "Common Traps",
+      "curriculumNote": "Synonyms That Will Destroy Your Score",
+      "studyOrder": 53
     },
     {
       "id": "ROmQsqmeUB8",
       "title": "The ONLY IELTS Writing Task 2 Strategy You Need",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "42:52"
+      "duration": "42:52",
+      "categoryOrder": 7,
+      "studyPhase": "Core Method",
+      "curriculumNote": "Unified Task 2 System",
+      "studyOrder": 14
     },
     {
       "id": "7lqSx_ucv4A",
       "title": "Get BAND 9 Using This IELTS Speaking Strategy",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "18:20"
+      "duration": "18:20",
+      "categoryOrder": 5,
+      "studyPhase": "Core Strategy",
+      "curriculumNote": "Get Band 9 Using This Speaking Strategy",
+      "studyOrder": 60
     },
     {
       "id": "gfTqr_9BMjs",
       "title": "The ONLY IELTS Listening Strategy You Need",
       "category": "listening",
       "hasPdf": false,
-      "duration": "12:38"
+      "duration": "12:38",
+      "categoryOrder": 2,
+      "studyPhase": "Core Method",
+      "curriculumNote": "The Only IELTS Listening Strategy You Need",
+      "studyOrder": 136
     },
     {
       "id": "wx4elwrGK1I",
       "title": "Simple Technique for Band 9 in IELTS Reading",
       "category": "reading",
       "hasPdf": false,
-      "duration": "10:21"
+      "duration": "10:21",
+      "categoryOrder": 9,
+      "studyPhase": "Deep Dive",
+      "curriculumNote": "Simple Technique for Band 9 Reading",
+      "studyOrder": 124
     },
     {
       "id": "666eP6xBhzI",
       "title": "IELTS Speaking Test- Band 6.5",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "22:07"
+      "duration": "22:07",
+      "categoryOrder": 33,
+      "studyPhase": "Mock Test: Band 6.5",
+      "curriculumNote": "Full Mock Test - Band 6.5 (Benchmark B)",
+      "studyOrder": 88
     },
     {
       "id": "UzjW8ycJu9U",
       "title": "From Band 6.5 to 9 in ONE Writing Lesson",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "40:39"
+      "duration": "40:39",
+      "categoryOrder": 23,
+      "studyPhase": "Writing Masterclass",
+      "curriculumNote": "Band 6.5 to 9 in ONE Writing Lesson",
+      "studyOrder": 159
     },
     {
       "id": "ULmeHkHU7YQ",
       "title": "How To Get Band 9 in IELTS Listening in 2026",
       "category": "listening",
       "hasPdf": false,
-      "duration": "36:22"
+      "duration": "36:22",
+      "categoryOrder": 3,
+      "studyPhase": "Core Method",
+      "curriculumNote": "How to Get Band 9 in Listening in 2026",
+      "studyOrder": 137
     },
     {
       "id": "OicvdCp5wrM",
       "title": "IELTS Speaking Test Band Score 6.5 With Feedback",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "23:27"
+      "duration": "23:27",
+      "categoryOrder": 34,
+      "studyPhase": "Mock Test: Band 6.5",
+      "curriculumNote": "Band 6.5 Mock Test With Live Examiner Feedback",
+      "studyOrder": 89
     },
     {
       "id": "P0zhWWHYNpk",
       "title": "The ONLY IELTS Writing Task 2 Tips You Need in 2026",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "46:24"
+      "duration": "46:24",
+      "categoryOrder": 26,
+      "studyPhase": "Advanced Speed",
+      "curriculumNote": "Essential 2026 Task 2 Tips",
+      "studyOrder": 33
     },
     {
       "id": "fUGVFbFXRMo",
       "title": "Get Band 9 After Learning These Speaking Tips",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "49:06"
+      "duration": "49:06",
+      "categoryOrder": 21,
+      "studyPhase": "Technique",
+      "curriculumNote": "Advanced Speaking Tips & Structure",
+      "studyOrder": 76
     },
     {
       "id": "1Uc4VRwGThE",
       "title": "How Do I Get Band 9 in IELTS Reading?",
       "category": "reading",
       "hasPdf": false,
-      "duration": "23:59"
+      "duration": "23:59",
+      "categoryOrder": 11,
+      "studyPhase": "Deep Dive",
+      "curriculumNote": "Scoring Band 9 in Academic Reading",
+      "studyOrder": 126
     },
     {
       "id": "Ayuy4zGnfkQ",
       "title": "IELTS Speaking Test- Perfect Band 9.0",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "15:33"
+      "duration": "15:33",
+      "categoryOrder": 52,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Perfect Band 9.0 Master Candidate",
+      "studyOrder": 107
     },
     {
       "id": "JvX6_hraSMM",
       "title": "How To Speak Like The 1% Elite",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "23:12"
+      "duration": "23:12",
+      "categoryOrder": 18,
+      "studyPhase": "Technique",
+      "curriculumNote": "Speak Like the Top 1% Candidates",
+      "studyOrder": 73
     },
     {
       "id": "BFS1z24aZaM",
       "title": "IELTS Speaking Test- Band 6.5",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "18:33"
+      "duration": "18:33",
+      "categoryOrder": 35,
+      "studyPhase": "Mock Test: Band 6.5",
+      "curriculumNote": "Full Mock Test - Band 6.5 (Benchmark C)",
+      "studyOrder": 90
     },
     {
       "id": "baIkTadn2oA",
       "title": "From Band 6 to 8 Using One Simple Strategy",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "8:00"
+      "duration": "8:00",
+      "categoryOrder": 10,
+      "studyPhase": "Score Breakthrough",
+      "curriculumNote": "From Band 6 to 8: One Simple Strategy",
+      "studyOrder": 146
     },
     {
       "id": "gdzrv2N40II",
       "title": "Shadow This Band 9 IELTS Speaking Test (Word for Word)",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "11:11"
+      "duration": "11:11",
+      "categoryOrder": 31,
+      "studyPhase": "Shadow Practice",
+      "curriculumNote": "Shadow This Band 9 Test (Word for Word)",
+      "studyOrder": 86
     },
     {
       "id": "Emd65BXMS9M",
       "title": "Get Band 9 After Using These Speaking Tips",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "24:24"
+      "duration": "24:24",
+      "categoryOrder": 22,
+      "studyPhase": "Technique",
+      "curriculumNote": "Band 9 Fluency & Coherence Framework",
+      "studyOrder": 77
     },
     {
       "id": "8oYpg7Gb1QI",
       "title": "50 Synonyms You NEED To Know to Pass The IELTS Test",
       "category": "vocabulary",
       "hasPdf": false,
-      "duration": "38:16"
+      "duration": "38:16",
+      "categoryOrder": 5,
+      "studyPhase": "High-Yield Lexicon",
+      "curriculumNote": "50 Must-Know Synonyms for Band 8+",
+      "studyOrder": 54
     },
     {
       "id": "VnnvhYcfANA",
       "title": "Student Jumps to Band 8.5 Using One Simple Strategy",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "10:44"
+      "duration": "10:44",
+      "categoryOrder": 14,
+      "studyPhase": "Score Breakthrough",
+      "curriculumNote": "Student Jump to Band 8.5",
+      "studyOrder": 150
     },
     {
       "id": "Ii2fVU4CJ9o",
       "title": "The 3 Speaking Tricks That Get You Band 9",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "18:37"
+      "duration": "18:37",
+      "categoryOrder": 17,
+      "studyPhase": "Technique",
+      "curriculumNote": "The 3 Speaking Tricks That Unlock Band 9",
+      "studyOrder": 72
     },
     {
       "id": "0bMvlaTfo6I",
       "title": "IELTS Task 1 Writing - Transform Band 6 to Band 8",
       "category": "writing_task1",
       "hasPdf": false,
-      "duration": "32:44"
+      "duration": "32:44",
+      "categoryOrder": 7,
+      "studyPhase": "Makeover & Traps",
+      "curriculumNote": "Task 1 Transform: Band 6 to Band 8",
+      "studyOrder": 42
     },
     {
       "id": "WAVTPzCdLbA",
       "title": "Fix These 3 Things To Get Band 8",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "18:36"
+      "duration": "18:36",
+      "categoryOrder": 19,
+      "studyPhase": "Troubleshooting",
+      "curriculumNote": "Fix These 3 Things to Get Band 8",
+      "studyOrder": 155
     },
     {
       "id": "r4p4s5tz9Bk",
       "title": "How Do I Get BAND 9 in IELTS Writing Task 2?",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "14:34"
+      "duration": "14:34",
+      "categoryOrder": 25,
+      "studyPhase": "Advanced Speed",
+      "curriculumNote": "Examiner Criteria for Band 9 Writing",
+      "studyOrder": 32
     },
     {
       "id": "9BnUUtlQbFU",
       "title": "This Method Took Her From Band 5.0 to 7.5",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "12:43"
+      "duration": "12:43",
+      "categoryOrder": 12,
+      "studyPhase": "Score Breakthrough",
+      "curriculumNote": "From Band 5.0 to 7.5: Case Study",
+      "studyOrder": 148
     },
     {
       "id": "hTm282ohAg4",
       "title": "A Real IELTS Speaking Makeover in 20 Minutes",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "25:39"
+      "duration": "25:39",
+      "categoryOrder": 27,
+      "studyPhase": "Makeover",
+      "curriculumNote": "Real IELTS Speaking Makeover in 20 Minutes",
+      "studyOrder": 82
     },
     {
       "id": "lpF5_EZIKVE",
       "title": "Get BAND 9 After Using These Listening Tips",
       "category": "listening",
       "hasPdf": false,
-      "duration": "13:18"
+      "duration": "13:18",
+      "categoryOrder": 7,
+      "studyPhase": "Advanced Strategy",
+      "curriculumNote": "Top Listening Tips for Band 9",
+      "studyOrder": 141
     },
     {
       "id": "apOCnYpR-9g",
       "title": "This BAND 9 IELTS Reading Strategy Changes Everything",
       "category": "reading",
       "hasPdf": false,
-      "duration": "10:37"
+      "duration": "10:37",
+      "categoryOrder": 7,
+      "studyPhase": "Core Method",
+      "curriculumNote": "The Game-Changing Reading Strategy",
+      "studyOrder": 122
     },
     {
       "id": "zbyjEGWHzaI",
       "title": "Band 6.5 to 7.5 After Learning This ONE Truth",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "11:06"
+      "duration": "11:06",
+      "categoryOrder": 17,
+      "studyPhase": "Troubleshooting",
+      "curriculumNote": "The One Truth to Jump 6.5 to 7.5",
+      "studyOrder": 153
     },
     {
       "id": "1sc4bhoNJLo",
       "title": "Why You're Stuck at Band 8 (Even With Great English)",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "29:57"
+      "duration": "29:57",
+      "categoryOrder": 16,
+      "studyPhase": "Troubleshooting",
+      "curriculumNote": "Why Candidates Get Stuck at Band 8",
+      "studyOrder": 152
     },
     {
       "id": "Rm3q6QPi6R0",
       "title": "Speaking Mistakes Cost You Band 7 (Live Correction)",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "28:23"
+      "duration": "28:23",
+      "categoryOrder": 26,
+      "studyPhase": "Makeover",
+      "curriculumNote": "Speaking Mistakes Cost You Band 7 (Live Fix)",
+      "studyOrder": 81
     },
     {
       "id": "S_TVcsCFpTM",
       "title": "Get BAND 9 After Using These Listening Tips",
       "category": "listening",
       "hasPdf": false,
-      "duration": "31:59"
+      "duration": "31:59",
+      "categoryOrder": 8,
+      "studyPhase": "Advanced Strategy",
+      "curriculumNote": "Avoiding Traps in Listening Sections 3 & 4",
+      "studyOrder": 142
     },
     {
       "id": "-BV_IrcRlEQ",
       "title": "IELTS Speaking Practice Test- Almost Perfect",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "22:54"
+      "duration": "22:54",
+      "categoryOrder": 45,
+      "studyPhase": "Mock Test: Band 8.5",
+      "curriculumNote": "Almost Perfect Band 8.5 Practice Test",
+      "studyOrder": 100
     },
     {
       "id": "eiuK2n_hFvc",
       "title": "How Anyone Can Jump from Band 6 to 8.5 in ONE Month",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "13:39"
+      "duration": "13:39",
+      "categoryOrder": 9,
+      "studyPhase": "Score Breakthrough",
+      "curriculumNote": "Jump from Band 6 to 8.5 in 1 Month",
+      "studyOrder": 145
     },
     {
       "id": "2oC-dXJUYqY",
       "title": "IELTS Speaking Band 9- Perfect Pronunciation + Vocabulary",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "22:49"
+      "duration": "22:49",
+      "categoryOrder": 16,
+      "studyPhase": "Pronunciation",
+      "curriculumNote": "Pronunciation + Topic-Specific Vocabulary",
+      "studyOrder": 71
     },
     {
       "id": "9t1j4a6CzVk",
       "title": "The Writing Makeover That Took an Essay From 6.5 to 9",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "48:25"
+      "duration": "48:25",
+      "categoryOrder": 22,
+      "studyPhase": "Makeover & Traps",
+      "curriculumNote": "The Makeover That Jumped 6.5 to 9.0",
+      "studyOrder": 29
     },
     {
       "id": "u5zmVCfCb7o",
       "title": "IELTS Speaking: Why Perfect English Hurts Your Score",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "23:53"
+      "duration": "23:53",
+      "categoryOrder": 25,
+      "studyPhase": "Mistake Elimination",
+      "curriculumNote": "Why 'Perfect English' Can Hurt Your Score",
+      "studyOrder": 80
     },
     {
       "id": "b6_zfUHwlw8",
       "title": "IELTS Speaking Band 9: Perfect Pronunciation",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "23:23"
+      "duration": "23:23",
+      "categoryOrder": 12,
+      "studyPhase": "Pronunciation",
+      "curriculumNote": "Band 9 Perfect Pronunciation Workshop",
+      "studyOrder": 67
     },
     {
       "id": "WmAQIHcS87g",
       "title": "From Band 6.5 to 8: IELTS Writing Makeover",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "33:33"
+      "duration": "33:33",
+      "categoryOrder": 21,
+      "studyPhase": "Makeover & Traps",
+      "curriculumNote": "Live Makeover: From Band 6.5 to 8.0",
+      "studyOrder": 28
     },
     {
       "id": "WP2LcgMq-_8",
       "title": "How to Start IELTS Speaking Answers Like a Band 9 Student",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "14:56"
+      "duration": "14:56",
+      "categoryOrder": 8,
+      "studyPhase": "Technique",
+      "curriculumNote": "How to Start Answers Like a Band 9 Student",
+      "studyOrder": 63
     },
     {
       "id": "t9PRLpkCUSM",
       "title": "IELTS Speaking- Perfect Pronunciation [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "18:31"
+      "duration": "18:31",
+      "categoryOrder": 13,
+      "studyPhase": "Pronunciation",
+      "curriculumNote": "Pronunciation & Intonation Secrets",
+      "studyOrder": 68
     },
     {
       "id": "5_A5vjLgDec",
       "title": "15 Minutes That Will Change Your IELTS Speaking Score",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "15:50"
+      "duration": "15:50",
+      "categoryOrder": 19,
+      "studyPhase": "Technique",
+      "curriculumNote": "15 Minutes That Will Transform Your Speaking",
+      "studyOrder": 74
     },
     {
       "id": "IevmdO16GuE",
       "title": "IELTS Speaking Test- Perfect Band 9",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "7:32"
+      "duration": "7:32",
+      "categoryOrder": 53,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Compact Band 9 Model Test",
+      "studyOrder": 108
     },
     {
       "id": "Rv79dEpaiX4",
       "title": "IELTS Speaking Test: Perfect Band 9 Score [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "10:11"
+      "duration": "10:11",
+      "categoryOrder": 54,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Perfect Band 9 Score with Lesson Breakdown",
+      "studyOrder": 109
     },
     {
       "id": "gnQZ4kov8tM",
       "title": "IELTS Quiz Battle- Can You Beat Our Students? (+ Free IELTS E-book)",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "13:59"
+      "duration": "13:59",
+      "categoryOrder": 26,
+      "studyPhase": "Interactive",
+      "curriculumNote": "IELTS Quiz Battle & Challenge",
+      "studyOrder": 162
     },
     {
       "id": "aIqBxtrUodQ",
       "title": "The ONLY IELTS Writing Task 2 Strategy You Need in 2026",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "41:18"
+      "duration": "41:18",
+      "categoryOrder": 6,
+      "studyPhase": "Core Method",
+      "curriculumNote": "The ONLY Task 2 Strategy in 2026",
+      "studyOrder": 13
     },
     {
       "id": "fE3lMuCGFBA",
       "title": "IELTS Writing Task 1 Academic For Beginners in 2026",
       "category": "writing_task1",
       "hasPdf": false,
-      "duration": "1:18:33"
+      "duration": "1:18:33",
+      "categoryOrder": 1,
+      "studyPhase": "Academic Foundation",
+      "curriculumNote": "Task 1 Academic for Beginners 2026",
+      "studyOrder": 36
     },
     {
       "id": "Kch2Tb_T2Pg",
       "title": "The Only IELTS Reading Strategy You Need in 2026",
       "category": "reading",
       "hasPdf": false,
-      "duration": "30:23"
+      "duration": "30:23",
+      "categoryOrder": 2,
+      "studyPhase": "Core Method",
+      "curriculumNote": "The Only Reading Strategy You Need in 2026",
+      "studyOrder": 117
     },
     {
       "id": "8l7_4tKrZqM",
       "title": "IELTS Speaking Tips and Tricks: Ultimate Guide 2026 [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "35:46"
+      "duration": "35:46",
+      "categoryOrder": 3,
+      "studyPhase": "Foundation",
+      "curriculumNote": "IELTS Speaking Tips & Tricks: 2026 Guide",
+      "studyOrder": 58
     },
     {
       "id": "wzdG66VK75c",
       "title": "IELTS Writing Task 2: Complete 6-Hour Course [+ Free Task 2 PDF]",
       "category": "writing_task2",
       "hasPdf": true,
-      "duration": "6:09:04"
+      "duration": "6:09:04",
+      "categoryOrder": 4,
+      "studyPhase": "Core Method",
+      "curriculumNote": "Complete 6-Hour Task 2 Masterclass",
+      "studyOrder": 11
     },
     {
       "id": "E4iUiRBVUa4",
       "title": "IELTS Speaking Exam- Perfect Band 9 [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "12:05"
+      "duration": "12:05",
+      "categoryOrder": 55,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Band 9 Real Interview Demonstration",
+      "studyOrder": 110
     },
     {
       "id": "zcWIcECLKmo",
       "title": "IELTS Speaking Test with Feedback – Band 8.5 [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "10:58"
+      "duration": "10:58",
+      "categoryOrder": 43,
+      "studyPhase": "Mock Test: Band 8.5",
+      "curriculumNote": "Band 8.5 Speaking Test with Full Feedback",
+      "studyOrder": 98
     },
     {
       "id": "9DTyINOeY-Y",
       "title": "How Do I Get A Band 9 in IELTS Speaking?",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "21:49"
+      "duration": "21:49",
+      "categoryOrder": 23,
+      "studyPhase": "Technique",
+      "curriculumNote": "How Do I Get Band 9 in Speaking?",
+      "studyOrder": 78
     },
     {
       "id": "1IVFRWCpNxE",
       "title": "IELTS Writing Task 1 Introductions [+ Free Task 1 PDF]",
       "category": "writing_task1",
       "hasPdf": true,
-      "duration": "13:21"
+      "duration": "13:21",
+      "categoryOrder": 4,
+      "studyPhase": "Academic Core",
+      "curriculumNote": "Paraphrasing & Overview Statements",
+      "studyOrder": 39
     },
     {
       "id": "lvF8q44170Q",
       "title": "Band 8.5 IELTS Speaking Test - Near Perfect Score [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "9:05"
+      "duration": "9:05",
+      "categoryOrder": 44,
+      "studyPhase": "Mock Test: Band 8.5",
+      "curriculumNote": "Near Perfect Score - Band 8.5 Speaking Test",
+      "studyOrder": 99
     },
     {
       "id": "5BJmUQFt0FI",
       "title": "IELTS Tips You MUST Know Before Your Test",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "12:06"
+      "duration": "12:06",
+      "categoryOrder": 7,
+      "studyPhase": "Foundation",
+      "curriculumNote": "Test-Day Traps You Must Know",
+      "studyOrder": 7
     },
     {
       "id": "UfdDaYv8Qp4",
       "title": "The ONLY IELTS Reading Strategy You Need in 2026",
       "category": "reading",
       "hasPdf": false,
-      "duration": "9:06"
+      "duration": "9:06",
+      "categoryOrder": 3,
+      "studyPhase": "Core Method",
+      "curriculumNote": "Band 9 Reading Strategy Breakdown",
+      "studyOrder": 118
     },
     {
       "id": "gfKS-p7thDU",
       "title": "Band 9.0 IELTS Practice Speaking Exam [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "9:41"
+      "duration": "9:41",
+      "categoryOrder": 56,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Band 9.0 Model Examination",
+      "studyOrder": 111
     },
     {
       "id": "_s1rIKaoAyM",
       "title": "69 Advanced Words (C1 + C2) to Get a Band 9",
       "category": "vocabulary",
       "hasPdf": false,
-      "duration": "56:39"
+      "duration": "56:39",
+      "categoryOrder": 6,
+      "studyPhase": "Advanced Lexicon",
+      "curriculumNote": "69 Advanced Words (C1 + C2) for Band 9",
+      "studyOrder": 55
     },
     {
       "id": "gOnaEmTkdm8",
       "title": "5 Speaking Mistakes Every New IELTS Student Makes",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "17:22"
+      "duration": "17:22",
+      "categoryOrder": 24,
+      "studyPhase": "Mistake Elimination",
+      "curriculumNote": "5 Mistakes Every New Speaking Student Makes",
+      "studyOrder": 79
     },
     {
       "id": "ybNEwnnIxWw",
       "title": "IELTS Speaking Test- Excellent Band 9.0",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "15:56"
+      "duration": "15:56",
+      "categoryOrder": 57,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Excellent Band 9.0 Benchmark Test",
+      "studyOrder": 112
     },
     {
       "id": "HSzJRe1SoWU",
       "title": "Fastest Way to Get Band 9 in IELTS Writing Task 2",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "10:43"
+      "duration": "10:43",
+      "categoryOrder": 23,
+      "studyPhase": "Advanced Speed",
+      "curriculumNote": "Fastest Way to Get Band 9 in Task 2",
+      "studyOrder": 30
     },
     {
       "id": "RherynZ236o",
       "title": "IELTS Speaking- Perfect Pronunciation and Fluency [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "29:30"
+      "duration": "29:30",
+      "categoryOrder": 14,
+      "studyPhase": "Pronunciation",
+      "curriculumNote": "Perfect Pronunciation and Natural Fluency",
+      "studyOrder": 69
     },
     {
       "id": "4uRhRB1ENUs",
       "title": "Can ChatGPT Get A Band 9?",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "15:31"
+      "duration": "15:31",
+      "categoryOrder": 25,
+      "studyPhase": "AI & Modern Tools",
+      "curriculumNote": "Can ChatGPT Score Band 9?",
+      "studyOrder": 161
     },
     {
       "id": "k4715CJ0Ii8",
       "title": "IELTS Speaking Test- Perfect Band 9 [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "17:25"
+      "duration": "17:25",
+      "categoryOrder": 58,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Advanced Band 9 Candidate Review",
+      "studyOrder": 113
     },
     {
       "id": "0qNw3Z4OoCk",
       "title": "Small IELTS Planning Tricks Lead to Big Results",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "11:05"
+      "duration": "11:05",
+      "categoryOrder": 20,
+      "studyPhase": "Troubleshooting",
+      "curriculumNote": "Small Planning Tricks for Big Score Jumps",
+      "studyOrder": 156
     },
     {
       "id": "_Bfh5HVh0js",
       "title": "The ONLY IELTS Vocabulary Course You Need [+ Free Vocabulary PDF]",
       "category": "vocabulary",
       "hasPdf": true,
-      "duration": "55:00"
+      "duration": "55:00",
+      "categoryOrder": 1,
+      "studyPhase": "Foundation",
+      "curriculumNote": "The ONLY IELTS Vocabulary Course You Need",
+      "studyOrder": 50
     },
     {
       "id": "jYk0pvSiNhQ",
       "title": "Advanced IELTS Speaking Test – Band 9 [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "17:19"
+      "duration": "17:19",
+      "categoryOrder": 59,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Advanced Fluency Band 9 Speaking Test",
+      "studyOrder": 114
     },
     {
       "id": "sR4mnzJatOc",
       "title": "IELTS Task 1 Formal Letters - Ultimate Guide",
       "category": "writing_task1",
       "hasPdf": false,
-      "duration": "15:22"
+      "duration": "15:22",
+      "categoryOrder": 11,
+      "studyPhase": "General Training",
+      "curriculumNote": "Formal Letters Ultimate Guide",
+      "studyOrder": 46
     },
     {
       "id": "LrsdF_1YNfs",
       "title": "Task 1 Process Diagrams: Transform Band 6 to 9 [+ Free Task 1 PDF]",
       "category": "writing_task1",
       "hasPdf": true,
-      "duration": "22:33"
+      "duration": "22:33",
+      "categoryOrder": 6,
+      "studyPhase": "Visual Types",
+      "curriculumNote": "Process Diagrams: Band 6 to 9",
+      "studyOrder": 41
     },
     {
       "id": "4nrG6SHM-rY",
       "title": "Simple Band 9 IELTS Speaking Test [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "19:31"
+      "duration": "19:31",
+      "categoryOrder": 60,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Simple & Clean Band 9 Speaking Strategy",
+      "studyOrder": 115
     },
     {
       "id": "5yCh5pcpVbs",
       "title": "IELTS Writing Task 1- Convert Band 6 to Band 8 [+ Free Task 1 PDF]",
       "category": "writing_task1",
       "hasPdf": true,
-      "duration": "34:08"
+      "duration": "34:08",
+      "categoryOrder": 8,
+      "studyPhase": "Makeover & Traps",
+      "curriculumNote": "Task 1 Convert: Band 6 to 8 Makeover",
+      "studyOrder": 43
     },
     {
       "id": "yle3Wytf_LE",
       "title": "The 4 Rules Band 9 Students Use In EVERY Essay",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "14:32"
+      "duration": "14:32",
+      "categoryOrder": 2,
+      "studyPhase": "Foundation",
+      "curriculumNote": "The 4 Rules Band 9 Students Use",
+      "studyOrder": 9
     },
     {
       "id": "S8Y5D3RMBes",
       "title": "Band 8.0 IELTS Practice Speaking Exam [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "18:00"
+      "duration": "18:00",
+      "categoryOrder": 39,
+      "studyPhase": "Mock Test: Band 8.0",
+      "curriculumNote": "Band 8.0 Practice Speaking Exam",
+      "studyOrder": 94
     },
     {
       "id": "rqmv0LCcPTs",
       "title": "The ONLY IELTS Speaking Course You Need [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "3:12:52"
+      "duration": "3:12:52",
+      "categoryOrder": 2,
+      "studyPhase": "Foundation",
+      "curriculumNote": "The ONLY IELTS Speaking Course You Need",
+      "studyOrder": 57
     },
     {
       "id": "SMCwpfJMdMo",
       "title": "IELTS Speaking - 9 Most Common Sentence Patterns [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "13:31"
+      "duration": "13:31",
+      "categoryOrder": 9,
+      "studyPhase": "Technique",
+      "curriculumNote": "9 Most Common Sentence Patterns in Speaking",
+      "studyOrder": 64
     },
     {
       "id": "UuNgt9Zjh4Y",
       "title": "The Small Errors Between Band 8.5 and Band 9 Speaking",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "26:45"
+      "duration": "26:45",
+      "categoryOrder": 30,
+      "studyPhase": "Refinement",
+      "curriculumNote": "Small Errors Between Band 8.5 and 9 Speaking",
+      "studyOrder": 85
     },
     {
       "id": "G8Y2liwGRl8",
       "title": "IELTS Reading Tips + Tricks: Ultimate Guide 2026",
       "category": "reading",
       "hasPdf": false,
-      "duration": "14:41"
+      "duration": "14:41",
+      "categoryOrder": 4,
+      "studyPhase": "Core Method",
+      "curriculumNote": "Reading Tips + Tricks Ultimate Guide 2026",
+      "studyOrder": 119
     },
     {
       "id": "xGtKdsVxV8A",
       "title": "IELTS 2026 Complete 11 Hour Course",
       "category": "general_tips",
       "hasPdf": false,
-      "duration": "11:24:27"
+      "duration": "11:24:27",
+      "categoryOrder": 3,
+      "studyPhase": "Foundation",
+      "curriculumNote": "IELTS 2026 Complete 11-Hour Course",
+      "studyOrder": 3
     },
     {
       "id": "nJJyilEPwpk",
       "title": "What a Band 9 IELTS Speaking Test Actually Sounds Like [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "19:37"
+      "duration": "19:37",
+      "categoryOrder": 46,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "What Band 9 Actually Sounds Like",
+      "studyOrder": 101
     },
     {
       "id": "8pnGARTYMpg",
       "title": "IELTS Speaking- Perfect Pronunciation and Fluency",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "27:16"
+      "duration": "27:16",
+      "categoryOrder": 15,
+      "studyPhase": "Pronunciation",
+      "curriculumNote": "Fluency Drills for High-Scoring Speaking",
+      "studyOrder": 70
     },
     {
       "id": "ELxGmf9f_ZM",
       "title": "IELTS Speaking Secrets Every Student Should Learn",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "11:02"
+      "duration": "11:02",
+      "categoryOrder": 6,
+      "studyPhase": "Core Strategy",
+      "curriculumNote": "Speaking Secrets Every Student Should Learn",
+      "studyOrder": 61
     },
     {
       "id": "hT4uSyRrUE4",
       "title": "Get 40/40 in IELTS Reading (2026) [+ Free Reading PDF]",
       "category": "reading",
       "hasPdf": true,
-      "duration": "30:15"
+      "duration": "30:15",
+      "categoryOrder": 13,
+      "studyPhase": "Advanced Goal",
+      "curriculumNote": "How to Score 40/40 in IELTS Reading",
+      "studyOrder": 128
     },
     {
       "id": "3zqcqh87KNk",
       "title": "She Went From Failure to 8.5 With Just 4 Tips",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "7:05"
+      "duration": "7:05",
+      "categoryOrder": 2,
+      "studyPhase": "Rapid Jump",
+      "curriculumNote": "From Failure to 8.5 With Just 4 Tips",
+      "studyOrder": 165
     },
     {
       "id": "RuvVc3Mdgvg",
       "title": "IELTS Speaking Tips You MUST Know Before Your Test",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "11:24"
+      "duration": "11:24",
+      "categoryOrder": 20,
+      "studyPhase": "Technique",
+      "curriculumNote": "Must-Know Speaking Tips Before Test Day",
+      "studyOrder": 75
     },
     {
       "id": "E5S1wJJ9rSA",
       "title": "Generate Band 9 IELTS Ideas After Doing This",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "18:55"
+      "duration": "18:55",
+      "categoryOrder": 9,
+      "studyPhase": "Deep Dive",
+      "curriculumNote": "Generate Band 9 Ideas Fast",
+      "studyOrder": 16
     },
     {
       "id": "OtmUQwPVLko",
       "title": "The ONLY IELTS Reading Course You Need 2026",
       "category": "reading",
       "hasPdf": false,
-      "duration": "1:59:27"
+      "duration": "1:59:27",
+      "categoryOrder": 1,
+      "studyPhase": "Foundation",
+      "curriculumNote": "The ONLY IELTS Reading Course You Need 2026",
+      "studyOrder": 116
     },
     {
       "id": "SYHWCn0GqCw",
       "title": "How Do I Get Band 9 in IELTS Listening? [+ Free Listening PDF]",
       "category": "listening",
       "hasPdf": true,
-      "duration": "11:09"
+      "duration": "11:09",
+      "categoryOrder": 4,
+      "studyPhase": "Core Method",
+      "curriculumNote": "Mastering Band 9 Listening Fundamentals",
+      "studyOrder": 138
     },
     {
       "id": "kpRmyUNDmwc",
       "title": "Your Band 6 Essay Could Be Band 8- Here's How",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "46:04"
+      "duration": "46:04",
+      "categoryOrder": 18,
+      "studyPhase": "Makeover & Traps",
+      "curriculumNote": "Turn Your Band 6 Essay Into Band 8",
+      "studyOrder": 25
     },
     {
       "id": "Sgwl1MLWSPw",
       "title": "This Is What Band 9 IELTS Speaking Actually Sounds Like [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "11:54"
+      "duration": "11:54",
+      "categoryOrder": 47,
+      "studyPhase": "Mock Test: Band 9.0",
+      "curriculumNote": "Real Audio: Band 9 Natural Cadence",
+      "studyOrder": 102
     },
     {
       "id": "vpmJTSntyVw",
       "title": "New Strategy For IELTS Listening Multiple Choice [+ Free Listening PDF]",
       "category": "listening",
       "hasPdf": true,
-      "duration": "11:42"
+      "duration": "11:42",
+      "categoryOrder": 6,
+      "studyPhase": "Deep Dive",
+      "curriculumNote": "Strategy for Listening Multiple Choice",
+      "studyOrder": 140
     },
     {
       "id": "AvV_PgjYlqU",
       "title": "IELTS Writing Task 1 Academic (Easier Than You Think)",
       "category": "writing_task1",
       "hasPdf": false,
-      "duration": "1:18:41"
+      "duration": "1:18:41",
+      "categoryOrder": 2,
+      "studyPhase": "Academic Foundation",
+      "curriculumNote": "Task 1 Academic Structure & Overview",
+      "studyOrder": 37
     },
     {
       "id": "-aBW-RHtcrE",
       "title": "Band 9 Strategy for IELTS Listening Maps [+ Free Listening PDF]",
       "category": "listening",
       "hasPdf": true,
-      "duration": "30:35"
+      "duration": "30:35",
+      "categoryOrder": 5,
+      "studyPhase": "Deep Dive",
+      "curriculumNote": "Band 9 Strategy for IELTS Listening Maps",
+      "studyOrder": 139
     },
     {
       "id": "OBNBe-c5ObA",
       "title": "Top 20 IELTS Speaking Idioms with Band 9 Samples [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "39:00"
+      "duration": "39:00",
+      "categoryOrder": 11,
+      "studyPhase": "Lexicon",
+      "curriculumNote": "Top 20 Speaking Idioms with Band 9 Samples",
+      "studyOrder": 66
     },
     {
       "id": "q7xCHfDRdug",
       "title": "The ONLY IELTS Listening Course You Need [+ Free Listening PDF]",
       "category": "listening",
       "hasPdf": true,
-      "duration": "2:08:00"
+      "duration": "2:08:00",
+      "categoryOrder": 1,
+      "studyPhase": "Foundation",
+      "curriculumNote": "The ONLY IELTS Listening Course You Need",
+      "studyOrder": 135
     },
     {
       "id": "6CXiHUFiyLE",
       "title": "Reading Advice From Four Band 9 Students [+ Free Reading PDF]",
       "category": "reading",
       "hasPdf": true,
-      "duration": "19:33"
+      "duration": "19:33",
+      "categoryOrder": 16,
+      "studyPhase": "Expert Advice",
+      "curriculumNote": "Reading Secrets From Four Band 9 Students",
+      "studyOrder": 131
     },
     {
       "id": "5hAEajljN24",
       "title": "How Do I Get a Band 9 in Reading + Listening?",
       "category": "reading",
       "hasPdf": false,
-      "duration": "16:57"
+      "duration": "16:57",
+      "categoryOrder": 12,
+      "studyPhase": "Integrated",
+      "curriculumNote": "Band 9 in Reading + Listening Strategy",
+      "studyOrder": 127
     },
     {
       "id": "ihHU8coGCNw",
       "title": "IELTS Task 1 Writing - Transform Band 6 to Band 8 [+ Free Task 1 PDF]",
       "category": "writing_task1",
       "hasPdf": true,
-      "duration": "38:43"
+      "duration": "38:43",
+      "categoryOrder": 9,
+      "studyPhase": "Makeover & Traps",
+      "curriculumNote": "Task 1 Live Diagnostic Makeover",
+      "studyOrder": 44
     },
     {
       "id": "EAIShbqX09Q",
       "title": "100 Essays: How Real Band 9 Students Use Samples",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "23:54"
+      "duration": "23:54",
+      "categoryOrder": 15,
+      "studyPhase": "Live Demo",
+      "curriculumNote": "How Real Band 9 Students Analyze Samples",
+      "studyOrder": 22
     },
     {
       "id": "tgwibVefUKk",
       "title": "IELTS Writing Task 1: Ace Pie Charts in Minutes [+ Free Task 1 PDF]",
       "category": "writing_task1",
       "hasPdf": true,
-      "duration": "23:36"
+      "duration": "23:36",
+      "categoryOrder": 5,
+      "studyPhase": "Visual Types",
+      "curriculumNote": "Master Pie Charts in Minutes",
+      "studyOrder": 40
     },
     {
       "id": "684xymRpBc0",
       "title": "Every IELTS Writing Tip Explained in 39 Minutes",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "38:59"
+      "duration": "38:59",
+      "categoryOrder": 3,
+      "studyPhase": "Foundation",
+      "curriculumNote": "Every IELTS Writing Tip in 39 Minutes",
+      "studyOrder": 10
     },
     {
       "id": "2EGiMjA8YzM",
       "title": "IELTS Writing Task 1 General: Band 9 Structure + Samples [+ Free Task 1 PDF]",
       "category": "writing_task1",
       "hasPdf": true,
-      "duration": "23:50"
+      "duration": "23:50",
+      "categoryOrder": 12,
+      "studyPhase": "General Training",
+      "curriculumNote": "Band 9 GT Letter Structure & Samples",
+      "studyOrder": 47
     },
     {
       "id": "hS7J1fNOulg",
       "title": "Why Your IELTS Essay Is Stuck at Band 6",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "44:46"
+      "duration": "44:46",
+      "categoryOrder": 17,
+      "studyPhase": "Makeover & Traps",
+      "curriculumNote": "Why Your Essay Is Stuck at Band 6",
+      "studyOrder": 24
     },
     {
       "id": "3KDP8P-pvEw",
       "title": "How to Answer ANY IELTS Reading Question",
       "category": "reading",
       "hasPdf": false,
-      "duration": "32:06"
+      "duration": "32:06",
+      "categoryOrder": 8,
+      "studyPhase": "Deep Dive",
+      "curriculumNote": "How to Answer ANY IELTS Reading Question",
+      "studyOrder": 123
     },
     {
       "id": "qhxzCiwX11o",
       "title": "How To Get Band 9 in IELTS Writing Task 1 Academic [+ Free Task 1 PDF]",
       "category": "writing_task1",
       "hasPdf": true,
-      "duration": "20:50"
+      "duration": "20:50",
+      "categoryOrder": 3,
+      "studyPhase": "Academic Core",
+      "curriculumNote": "How to Get Band 9 in Task 1 Academic",
+      "studyOrder": 38
     },
     {
       "id": "yvt8RzGNhBc",
       "title": "Understand IELTS Writing Task 2 in 5 Minutes",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "5:54"
+      "duration": "5:54",
+      "categoryOrder": 1,
+      "studyPhase": "Foundation",
+      "curriculumNote": "Understand Writing Task 2 in 5 Minutes",
+      "studyOrder": 8
     },
     {
       "id": "YEBDIogJ5Bs",
       "title": "IELTS Advantage VIP Review: Band 9 in IELTS Reading",
       "category": "reading",
       "hasPdf": false,
-      "duration": "14:14"
+      "duration": "14:14",
+      "categoryOrder": 18,
+      "studyPhase": "Case Study",
+      "curriculumNote": "VIP Review: Perfect Band 9 in Reading",
+      "studyOrder": 133
     },
     {
       "id": "V8inpUXQPI8",
       "title": "What Band 9 IELTS Speakers Know (That You Don't)",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "18:35"
+      "duration": "18:35",
+      "categoryOrder": 7,
+      "studyPhase": "Core Strategy",
+      "curriculumNote": "What Band 9 Speakers Know (Examiner View)",
+      "studyOrder": 62
     },
     {
       "id": "1aQZ7_tfgps",
       "title": "Simple Fixes That Turn a Band 6 Essay Into Band 8 [+ Free Task 2 PDF]",
       "category": "writing_task2",
       "hasPdf": true,
-      "duration": "24:10"
+      "duration": "24:10",
+      "categoryOrder": 19,
+      "studyPhase": "Makeover & Traps",
+      "curriculumNote": "Simple Fixes: Band 6 to Band 8",
+      "studyOrder": 26
     },
     {
       "id": "HouS9iKd8io",
       "title": "Why is my IELTS Reading Score NOT Increasing?",
       "category": "reading",
       "hasPdf": false,
-      "duration": "14:16"
+      "duration": "14:16",
+      "categoryOrder": 14,
+      "studyPhase": "Troubleshooting",
+      "curriculumNote": "Why Your Reading Score is NOT Increasing",
+      "studyOrder": 129
     },
     {
       "id": "kD0eh1UbeT8",
       "title": "IELTS Speaking Part 2 Strategy That REALLY Works",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "29:02"
+      "duration": "29:02",
+      "categoryOrder": 10,
+      "studyPhase": "Part 2 Mastery",
+      "curriculumNote": "Speaking Part 2 Strategy That REALLY Works",
+      "studyOrder": 65
     },
     {
       "id": "rz_cjD8VPLs",
       "title": "IELTS Advantage VIP Review: How I got a Band 9 in IELTS Listening",
       "category": "listening",
       "hasPdf": false,
-      "duration": "17:33"
+      "duration": "17:33",
+      "categoryOrder": 9,
+      "studyPhase": "Case Study",
+      "curriculumNote": "How I Got a Band 9 in Listening (VIP Review)",
+      "studyOrder": 143
     },
     {
       "id": "wc7XR2tV22E",
       "title": "IELTS Advantage VIP Review | Band 8.5 in 3 Weeks!",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "22:41"
+      "duration": "22:41",
+      "categoryOrder": 3,
+      "studyPhase": "Rapid Jump",
+      "curriculumNote": "Band 8.5 in Just 3 Weeks!",
+      "studyOrder": 166
     },
     {
       "id": "YXnkHUJwHUc",
       "title": "IELTS Band 8 | Sarabdeep's Success Story",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "21:19"
+      "duration": "21:19",
+      "categoryOrder": 6,
+      "studyPhase": "Solid Band 8",
+      "curriculumNote": "Sarabdeep's Band 8 Success Story",
+      "studyOrder": 169
     },
     {
       "id": "-m5sJ_6WcYU",
       "title": "IELTS VIP Writing Review | “How I Passed IELTS Writing after getting Band 6.5 seven times!”",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "12:52"
+      "duration": "12:52",
+      "categoryOrder": 18,
+      "studyPhase": "Writing Breakthrough",
+      "curriculumNote": "Passed Writing After Band 6.5 Seven Times!",
+      "studyOrder": 181
     },
     {
       "id": "ZAZ4YBHDsnk",
       "title": "Band 5 - 7.5 in IELTS Writing | Review From an IELTS Advantage VIP Student",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "49:15"
+      "duration": "49:15",
+      "categoryOrder": 20,
+      "studyPhase": "Writing Transformation",
+      "curriculumNote": "Band 5 to 7.5 in IELTS Writing",
+      "studyOrder": 183
     },
     {
       "id": "9-E8VUGMiqA",
       "title": "The Only IELTS Writing Task 2 Method You Actually Need",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "28:19"
+      "duration": "28:19",
+      "categoryOrder": 5,
+      "studyPhase": "Core Method",
+      "curriculumNote": "The Only Writing Task 2 Method You Need",
+      "studyOrder": 12
     },
     {
       "id": "8aafXYh_gHA",
       "title": "IELTS Speaking Band 8 Test With EXPERT Feedback",
       "category": "speaking",
       "hasPdf": false,
-      "duration": "19:10"
+      "duration": "19:10",
+      "categoryOrder": 37,
+      "studyPhase": "Mock Test: Band 8.0",
+      "curriculumNote": "Band 8 Speaking Test with Expert Feedback",
+      "studyOrder": 92
     },
     {
       "id": "5HEmQahtJyY",
       "title": "Band 5.5 to 7 in IELTS Writing - Komal's IELTS Advantage VIP Review",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "21:58"
+      "duration": "21:58",
+      "categoryOrder": 21,
+      "studyPhase": "Writing Transformation",
+      "curriculumNote": "Band 5.5 to 7 in IELTS Writing (Komal)",
+      "studyOrder": 184
     },
     {
       "id": "ZDv9njERj0s",
       "title": "IELTS Speaking Mock Test - Band 8 [+ Free Speaking PDF]",
       "category": "speaking",
       "hasPdf": true,
-      "duration": "20:33"
+      "duration": "20:33",
+      "categoryOrder": 38,
+      "studyPhase": "Mock Test: Band 8.0",
+      "curriculumNote": "IELTS Speaking Mock Test - Solid Band 8",
+      "studyOrder": 93
     },
     {
       "id": "9CBHyagmGsI",
       "title": "IELTS Advantage VIP Review- From 6.5 to Band 9 in IELTS Reading",
       "category": "reading",
       "hasPdf": false,
-      "duration": "17:06"
+      "duration": "17:06",
+      "categoryOrder": 17,
+      "studyPhase": "Case Study",
+      "curriculumNote": "VIP Journey: From 6.5 to Band 9 Reading",
+      "studyOrder": 132
     },
     {
       "id": "7vy4hsr2V4s",
       "title": "Kashyap's IELTS Advantage VIP Success Story",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "12:43"
+      "duration": "12:43",
+      "categoryOrder": 25,
+      "studyPhase": "VIP Story",
+      "curriculumNote": "Kashyap's IELTS Advantage VIP Success",
+      "studyOrder": 188
     },
     {
       "id": "T5U1wujtyoo",
       "title": "Ashok’s IELTS Advantage VIP Review- Follow This Simple Formula to Get a Band 7.5 in the IELTS Test",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "10:48"
+      "duration": "10:48",
+      "categoryOrder": 10,
+      "studyPhase": "Formula Success",
+      "curriculumNote": "Ashok: Simple Formula to Get Band 7.5",
+      "studyOrder": 173
     },
     {
       "id": "lrocDB7bZhc",
       "title": "Harneet's IELTS Advantage VIP Review- 8777 IELTS Success Story",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "10:08"
+      "duration": "10:08",
+      "categoryOrder": 12,
+      "studyPhase": "Target Achieved",
+      "curriculumNote": "Harneet: 8777 IELTS Success Story",
+      "studyOrder": 175
     },
     {
       "id": "oKRN18_FTUQ",
       "title": "IELTS Advantage VIP Writing Review: 6.5 3 Times to Band 7.5 Success",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "12:31"
+      "duration": "12:31",
+      "categoryOrder": 19,
+      "studyPhase": "Writing Breakthrough",
+      "curriculumNote": "Stuck at 6.5 Three Times -> Band 7.5 Success",
+      "studyOrder": 182
     },
     {
       "id": "vCRU-Skq4Ak",
       "title": "IELTS Advantage VIP Review- Reading Advice from a Band 9.0 Student",
       "category": "reading",
       "hasPdf": false,
-      "duration": "14:30"
+      "duration": "14:30",
+      "categoryOrder": 19,
+      "studyPhase": "Case Study",
+      "curriculumNote": "Band 9 Student Reading Advice & Walkthrough",
+      "studyOrder": 134
     },
     {
       "id": "HYE-Y1jPH-M",
       "title": "Divya- IELTS Advantage VIP Review",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "13:45"
+      "duration": "13:45",
+      "categoryOrder": 26,
+      "studyPhase": "VIP Story",
+      "curriculumNote": "Divya's IELTS Advantage VIP Review",
+      "studyOrder": 189
     },
     {
       "id": "s4HLAeYuKuI",
       "title": "IELTS Advantage VIP Course Review",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "9:11"
+      "duration": "9:11",
+      "categoryOrder": 27,
+      "studyPhase": "Course Walkthrough",
+      "curriculumNote": "IELTS Advantage VIP Course Detailed Review",
+      "studyOrder": 190
     },
     {
       "id": "4xPE77WCA_Y",
       "title": "Carolina's IELTS Advantage VIP Review- IELTS Band 6.5 to 7.5 in 3 Weeks",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "22:59"
+      "duration": "22:59",
+      "categoryOrder": 13,
+      "studyPhase": "Rapid Jump",
+      "curriculumNote": "Carolina: Band 6.5 to 7.5 in 3 Weeks",
+      "studyOrder": 176
     },
     {
       "id": "_Kt47AR5VYM",
       "title": "IELTS VIP Review- How Crystal Achieved Band 8 After Failing her IELTS Test Many Times",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "15:12"
+      "duration": "15:12",
+      "categoryOrder": 7,
+      "studyPhase": "Breakthrough",
+      "curriculumNote": "Crystal's Band 8 After Failing Many Times",
+      "studyOrder": 170
     },
     {
       "id": "o7Qk4jmAJq0",
       "title": "IELTS Advantage VIP Review- From 'Failure' to Band 8.5 in Just 1 Month",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "26:58"
+      "duration": "26:58",
+      "categoryOrder": 4,
+      "studyPhase": "Rapid Jump",
+      "curriculumNote": "From 'Failure' to Band 8.5 in 1 Month",
+      "studyOrder": 167
     },
     {
       "id": "wGoc6rHXDns",
       "title": "IELTS Advantage VIP Review: Band 5.5 to 7.5 in IELTS",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "10:57"
+      "duration": "10:57",
+      "categoryOrder": 11,
+      "studyPhase": "Major Jump",
+      "curriculumNote": "From Band 5.5 to 7.5 in IELTS",
+      "studyOrder": 174
     },
     {
       "id": "80oOFoohRBc",
       "title": "IELTS Advantage VIP Review- From IELTS Band 6 to 8.5 in Just 1 Month",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "11:51"
+      "duration": "11:51",
+      "categoryOrder": 5,
+      "studyPhase": "Rapid Jump",
+      "curriculumNote": "From Band 6 to 8.5 in Just 1 Month",
+      "studyOrder": 168
     },
     {
       "id": "OR9-3P469U8",
       "title": "IELTS VIP Review",
       "category": "vip_reviews",
       "hasPdf": false,
-      "duration": "6:40"
+      "duration": "6:40",
+      "categoryOrder": 28,
+      "studyPhase": "Course Walkthrough",
+      "curriculumNote": "IELTS VIP Review & Experience",
+      "studyOrder": 191
     },
     {
       "id": "-x6U2el8-Lk",
       "title": "IELTS Writing Academy Review",
       "category": "writing_task2",
       "hasPdf": false,
-      "duration": "12:28"
+      "duration": "12:28",
+      "categoryOrder": 28,
+      "studyPhase": "Course Review",
+      "curriculumNote": "IELTS Writing Academy Walkthrough",
+      "studyOrder": 35
     }
   ]
 };

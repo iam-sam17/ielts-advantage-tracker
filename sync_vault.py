@@ -72,7 +72,9 @@ def determine_category(title, categories):
     if any(k in title_lower for k in [
         "vip", "success story", "student review", "case study", "band 8.5 story",
         "scored band", "from failure", "visa", "scholarship", "how i got band",
-        "sarabdeep", "kashyap", "harneet", "divya", "carolina", "crystal", "komal", "ashok"
+        "sarabdeep", "kashyap", "harneet", "divya", "carolina", "crystal", "komal", "ashok",
+        "failed ielts", "stuck at", "broke 6.5", "writing score was", "fixed her writing",
+        "in 2 weeks", "in 3 weeks", "in 1 month", "jumped from", "first attempt"
     ]):
         return "vip_reviews"
 
@@ -281,7 +283,11 @@ def main():
                 "title": title,
                 "category": cat,
                 "hasPdf": False,
-                "duration": dur
+                "duration": dur,
+                "categoryOrder": 9999,
+                "studyOrder": 9999,
+                "studyPhase": "Latest Upload",
+                "curriculumNote": title
             }
             # Insert new video at the very top
             existing_videos.insert(0, new_item)

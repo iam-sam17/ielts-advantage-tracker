@@ -24,7 +24,7 @@ Preparing for IELTS directly on YouTube can be frustrating:
 * ❌ Hundreds of videos scattered randomly across years of uploads.
 * ❌ No easy way to track what you’ve already studied and what needs revision.
 
-**The IELTS Advantage Vault solves this completely.** It takes **high-yield masterclasses by Chris Pell (IELTS Advantage)** and organizes them into a **clean, structured, distraction-free curriculum** — right in your browser.
+**The IELTS Advantage Vault solves this completely.** It takes **191+ high-yield masterclasses by Chris Pell (IELTS Advantage)** and organizes them into a **clean, structured, distraction-free curriculum** — right in your browser.
 
 ---
 
@@ -45,10 +45,12 @@ Preparing for IELTS directly on YouTube can be frustrating:
 
 ## 🔥 Key Benefits & Practical Features
 
+* 🎯 **Recommended Step-by-Step Study Order:** Complete pedagogical roadmap built from Chris Pell's core methodology — from foundation and rules to Band 9 frameworks, diagnostic makeovers, and full mock simulations.
+* 🎛️ **Multi-Dimensional Smart Sorting:** Sort masterclasses by **Recommended Study Order**, **Latest Uploads**, **Duration (Longest First / Shortest First)**, or **Alphabetical (A→Z / Z→A)**.
 * 🚫 **Distraction-Free Dedicated Player:** Watch classes in full HD with complete timestamps and lesson overviews — without comments or rabbit holes pulling your focus away.
 * 📌 **Personal Progress Tracking:** Mark completed masterclasses as **Watched (✅)** and save tricky topics as **Bookmarked (⭐)** so you never lose track of your preparation.
 * ⚡ **Instant Smart Search:** Type any topic (e.g., *“map diagram”*, *“cue card”*, *“agree disagree”*, *“band 9 sample”*) and find the exact masterclass in under 2 seconds.
-* 🔄 **Always Up to Date:** The vault automatically syncs with the channel so you never miss a newly released strategy class.
+* 🔄 **Always Up to Date:** The vault automatically syncs with the channel so you never miss a newly released strategy class (191+ videos indexed).
 * 🌓 **6 Custom Study Themes:** Switch between sleek dark modes (OLED Black, Cyberpunk, Dracula, Deep Navy) and clean Light mode to protect your eyes during late-night study sessions.
 
 ---

@@ -635,22 +635,39 @@ body {
   font-weight: 700;
 }
 
-.sort-selector {
+.sort-selector,
+.sort-control {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 12.5px;
+  font-size: 13px;
   color: var(--text-secondary);
 }
-.sort-selector select {
+.sort-label {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+.sort-selector select,
+.sort-select {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   color: var(--text-primary);
-  padding: 5px 10px;
+  padding: 6px 12px;
   border-radius: var(--radius-sm);
   font-size: 12.5px;
+  font-weight: 600;
   outline: none;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+.sort-selector select:hover,
+.sort-selector select:focus,
+.sort-select:hover,
+.sort-select:focus {
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
 }
 
 /* ── Video Card Grid ────────────────────────────────────────────────────── */
@@ -790,6 +807,29 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+
+/* Curriculum Focus / Note Badge */
+.card-curriculum-note {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--accent-cyan);
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-curriculum-note .note-icon {
+  font-size: 10px;
 }
 
 .card-title {
