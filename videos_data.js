@@ -176,6 +176,17 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "wZkCxaV6EqI",
+      "title": "IELTS Speaking Test - Almost Perfect Band 8",
+      "category": "speaking",
+      "hasPdf": false,
+      "duration": "20:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "IELTS Speaking Test - Almost Perfect Band 8"
+    },
+    {
       "id": "VjZU_RxB3NE",
       "title": "How Jewel Scored Band 8.5 on His Very First IELTS Attempt",
       "category": "vip_reviews",
