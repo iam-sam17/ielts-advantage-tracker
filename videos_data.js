@@ -176,6 +176,17 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "_AjW6BAiMYA",
+      "title": "Stuck at Band 6 in Writing. Then Sumehra Scored 9 in Speaking, Listening and Reading.",
+      "category": "vip_reviews",
+      "hasPdf": false,
+      "duration": "20:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "Stuck at Band 6 in Writing. Then Sumehra Scored 9 in Speaking, Listening and Reading."
+    },
+    {
       "id": "wZkCxaV6EqI",
       "title": "IELTS Speaking Test - Almost Perfect Band 8",
       "category": "speaking",
