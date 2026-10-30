@@ -176,6 +176,17 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "1JnMFXMwzCY",
+      "title": "The ONLY IELTS Writing Task 2 Strategy You Need in 2027",
+      "category": "writing_task2",
+      "hasPdf": false,
+      "duration": "20:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "The ONLY IELTS Writing Task 2 Strategy You Need in 2027"
+    },
+    {
       "id": "_AjW6BAiMYA",
       "title": "Stuck at Band 6 in Writing. Then Sumehra Scored 9 in Speaking, Listening and Reading.",
       "category": "vip_reviews",
