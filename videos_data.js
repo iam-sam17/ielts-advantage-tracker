@@ -176,6 +176,17 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "JbTM0FWkc98",
+      "title": "She Stopped Using Fancy Language. Then Theodora Scored Band 9 Overall.",
+      "category": "vip_reviews",
+      "hasPdf": false,
+      "duration": "20:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "She Stopped Using Fancy Language. Then Theodora Scored Band 9 Overall."
+    },
+    {
       "id": "1JnMFXMwzCY",
       "title": "The ONLY IELTS Writing Task 2 Strategy You Need in 2027",
       "category": "writing_task2",
