@@ -176,6 +176,17 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "TbvdusbkVig",
+      "title": "Get $147 of IELTS Feedback for $10 Today",
+      "category": "general_tips",
+      "hasPdf": false,
+      "duration": "20:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "Get $147 of IELTS Feedback for $10 Today"
+    },
+    {
       "id": "JbTM0FWkc98",
       "title": "She Stopped Using Fancy Language. Then Theodora Scored Band 9 Overall.",
       "category": "vip_reviews",
