@@ -176,6 +176,17 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "k4sOtpadmX8",
+      "title": "IELTS Essay Masterclass- Lesson 3",
+      "category": "writing_task2",
+      "hasPdf": false,
+      "duration": "0:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "IELTS Essay Masterclass- Lesson 3"
+    },
+    {
       "id": "TbvdusbkVig",
       "title": "Get $147 of IELTS Feedback for $10 Today",
       "category": "general_tips",
