@@ -176,6 +176,17 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "DPlBL_-ZAf8",
+      "title": "The Writing Makeover That Took Her Essay From 6.5 to 8.5",
+      "category": "writing_task2",
+      "hasPdf": false,
+      "duration": "20:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "The Writing Makeover That Took Her Essay From 6.5 to 8.5"
+    },
+    {
       "id": "k4sOtpadmX8",
       "title": "IELTS Essay Masterclass- Lesson 3",
       "category": "writing_task2",
