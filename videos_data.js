@@ -176,6 +176,17 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "JbGgFuvLQm0",
+      "title": "How Do I Get Band 8.5 in IELTS Writing Task 2?",
+      "category": "writing_task2",
+      "hasPdf": false,
+      "duration": "20:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "How Do I Get Band 8.5 in IELTS Writing Task 2?"
+    },
+    {
       "id": "2bTf8v0CJPA",
       "title": "She Thought Going From 7.5 to 8 Was Simple. Anwar Found Out the Hard Way.",
       "category": "general_tips",
