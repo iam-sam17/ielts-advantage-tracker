@@ -176,6 +176,39 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "KI4yz3OjDx0",
+      "title": "Limited Time, Shaky English, Band 9 in Reading. How Eva Did It.",
+      "category": "reading",
+      "hasPdf": false,
+      "duration": "20:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "Limited Time, Shaky English, Band 9 in Reading. How Eva Did It."
+    },
+    {
+      "id": "cMiCl89QdR4",
+      "title": "IELTS Essay Masterclass- Lesson 2",
+      "category": "writing_task2",
+      "hasPdf": false,
+      "duration": "0:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "IELTS Essay Masterclass- Lesson 2"
+    },
+    {
+      "id": "zdRll23VzwU",
+      "title": "IELTS Essay Masterclass- Lesson 1",
+      "category": "writing_task2",
+      "hasPdf": false,
+      "duration": "0:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "IELTS Essay Masterclass- Lesson 1"
+    },
+    {
       "id": "JbGgFuvLQm0",
       "title": "How Do I Get Band 8.5 in IELTS Writing Task 2?",
       "category": "writing_task2",
