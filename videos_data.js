@@ -176,6 +176,17 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "1spUAkXig7U",
+      "title": "Write a Band 7+ IELTS Essay in 3 Days (FREE)",
+      "category": "writing_task2",
+      "hasPdf": false,
+      "duration": "20:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "Write a Band 7+ IELTS Essay in 3 Days (FREE)"
+    },
+    {
       "id": "PsjXm2iQTBo",
       "title": "Free IELTS Essay Masterclass. Now Open.",
       "category": "writing_task2",
