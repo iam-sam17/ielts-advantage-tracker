@@ -176,6 +176,17 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "AwerrJnnVsA",
+      "title": "IELTS VIP Special Black Friday Event",
+      "category": "vip_reviews",
+      "hasPdf": false,
+      "duration": "0:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "IELTS VIP Special Black Friday Event"
+    },
+    {
       "id": "jCMjC-FHpVs",
       "title": "Free IELTS Essay Masterclass. Starts Tuesday.",
       "category": "writing_task2",
