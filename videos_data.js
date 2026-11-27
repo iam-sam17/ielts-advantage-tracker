@@ -176,6 +176,17 @@ const VAULT_DATA = {
   ],
   "videos": [
     {
+      "id": "pnHf-8nFj8g",
+      "title": "Black Friday. 50% Off the IELTS VIP Course",
+      "category": "vip_reviews",
+      "hasPdf": false,
+      "duration": "20:00",
+      "categoryOrder": 9999,
+      "studyOrder": 9999,
+      "studyPhase": "Latest Upload",
+      "curriculumNote": "Black Friday. 50% Off the IELTS VIP Course"
+    },
+    {
       "id": "AwerrJnnVsA",
       "title": "IELTS VIP Special Black Friday Event",
       "category": "vip_reviews",
